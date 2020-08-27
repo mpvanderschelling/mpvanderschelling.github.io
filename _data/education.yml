@@ -1,13 +1,28 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
+- degree: MSc Materials Science & Engineering
+  uni: Delft University of Technology
+  year: September 2018 &mdash; Present
   awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+    - award: Self-defined specialisation: ’Plastics, sustainability and computational material sciences’.
+  # summary: If you had any meaningful roles at college, feel free to write about them here
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: External Research Project
+  uni: Imperial College London
+  year: September 2019 &mdash; December 2019
+  awards:
+    - award: Simulating the charge mobility transfer of the copolymer IDTBT with Kinetic Monte Carlo.
+
+- degree: BSc Molecular Science & Technology
+  uni: Delft University of Technology
+  year: September 2013 &mdash; March 2018
+  awards:
+    - award: Major &mdash; Chemical Technology
+    - award: Minor &mdash; Sustainable Energy & Technology
+    - award: Graduation project &mdash; 'Study of UiO-66 linkers' rotational dynamics'
+
+
+#- degree: High School Diploma
+#  uni: Springfield High School
+#  year: 2004
+#  award: Most likely to succeed
+#  summary: You can choose to have either a single or multiple awards
