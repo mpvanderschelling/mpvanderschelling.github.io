@@ -23,7 +23,7 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • mpvanderschelling@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>With the knowledge of my bachelor course "Molecular Science & Technology" and masters “Materials Science & Engineering”, I try to connect materials science with chemistry. During my minor "Sustainable Energy & Technology" I developed an interest in sustainability. Based on that, I have compiled my courses for my master's degree in the theme of sustainable energy, plastics and computer simulations. In the past quarter I applied this knowledge in a research project at Imperial College London. I mainly investigated the simulation of polymers for organic solar cells. I am currently looking for a challenging project within a company that investigates innovative solutions within (one of) the above described topics.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -48,7 +48,7 @@ resume_social_links:
   resume_github_url:            "https://github.com/mpvanderschelling"
   # resume_twitter_url:           "http://twitter.com/jglovier"
   # resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
+  resume_facebook_url:          "https://www.facebook.com/martin.vanderschelling"
   resume_linkedin_url:          "https://www.linkedin.com/in/martin-van-der-schelling-6148ab14b/"
   # resume_instagram_url:         "insert your Instagram URL here"
   # resume_website_url:           "http://joelglovier.com"
