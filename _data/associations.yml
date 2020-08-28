@@ -1,15 +1,21 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
-- organization: PETA
-  role: Volunteer
-  year: 2001 &mdash; 2010
-  url: https://www.peta.org/
-  summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+- organization: Student Association 'Tubalkain'
+  role: Board of Studies member
+  year: 2018 &mdash; 2019
+  # url: https://www.peta.org/
+  summary: Safeguards the educational quality of the master program ’Materials Science & Engineering’.
 
-
-- organization: Yale Amnesty International
-  role: Communications coordinator
-  year: 2002 &mdash; 2004
-  url: http://campuspress.yale.edu/amnesty/
-  summary: During my junion and senior years at Yale, I was actively involved in Yale Amnesty International where I helped facilitate our student organization communications through website maintenance, writing for our campus publication, and graphic design of related materials.
+- organization: K.S.V. Sanctus Virgilius
+  role: Advisory Board Theatre Production
+  year: 2018 &mdash; Present
+  # url: http://campuspress.yale.edu/amnesty/
+  summary: Responsible for the long-term policies and assisting the current board.
+  
+  
+- organization: K.S.V. Sanctus Virgilius
+  role: Board member Theatre Production
+  year: 2015 &mdash; 2016
+  url: http://www.virgieltheater.nl
+  summary: Organizing a student musical for 50 students and professionals in ’Theater de Veste’.
