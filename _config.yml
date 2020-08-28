@@ -1,6 +1,6 @@
 # Site settings
 title: "Martin van der Schelling"
-description: "A resume template for Jekyll and GitHub Pages sites."
+description: "Resume of Martin van der Schelling"
 
 # Build settings
 markdown: kramdown
@@ -23,7 +23,7 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • mpvanderschelling@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>With the knowledge of my bachelor course Molecular Science & Technology and masters Materials Science & Engineering, I try to connect materials science with chemistry. During my minor Sustainable Energy & Technology I developed an interest in sustainability. Based on that, I have compiled my courses for my master's degree in the theme of sustainable energy, plastics and computer simulations. In the past quarter I applied this knowledge in a research project at Imperial College London. I mainly investigated the simulation of polymers for organic solar cells. I am currently looking for a challenging project within a company that investigates innovative solutions within (one of) the above described topics.</p>"
+resume_header_intro: "<p>I try to connect sustainability, materials and computational engineering. I am currently looking for a challenging project within a company.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
