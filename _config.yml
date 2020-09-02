@@ -23,7 +23,13 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • mpvanderschelling@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Hi! I try to connect sustainability, materials science and computational engineering. I'm looking for a challenging role within an innovative company to kickstart my career! </p>"
+resume_header_intro: "<p>	<b>Hi!</b> I'm trying to implement <b>computational modelling</b> and optimization with materials science. With my chemical background, I'm curious about the world of <b>plastics and composites</b>. During my sustainability minor, I've gained an interest in <b>renewable energy</b> and technology. I'm ready to take on the challenges that come with the clean energy transition and to give value to waste-stream processes. Besides, I play the piano in a cover band!
+
+
+
+
+
+I'm looking for a challenging role within an innovative company to kickstart my career! </p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
