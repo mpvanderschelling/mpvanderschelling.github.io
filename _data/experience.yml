@@ -4,7 +4,11 @@
 - company:  <a href="http://www.npsp.nl">NPSP B.V.</a>
   position: Graduation student
   duration: Mar, 2020 &mdash; Present
+  collapse: True
+  collapse_name: Bio-based composites optimization and towards a data-driven heuristic decision strategy
   summary: MSc thesis project &mdash; Bio-based composites optimization and towards a data-driven heuristic decision strategy
+  
+  collapsed_text: Abstract of masters thesis
 
 
 # VP of Global Communications
@@ -18,12 +22,14 @@
 - company: Delft University of Technology
   position: Teacher Assistant Computational Materials Science
   duration: Feb, 2020 &mdash; Apr, 2020
+  collapse: False
   summary: Grading assignments and giving feedback for the mastercourse ’Computational Materials Sciences I’
   
 # Director of Digital Stratgy
 - company: Ampelmann B.V.
   position: Jr. IT-support
   duration:  May, 2018 &mdash; July, 2018
+  collapse: False
   summary: First line IT-desk co-worker in a team. Setting-up of internal IT-procedures.
 
 
@@ -31,4 +37,5 @@
 - company: Priva B.V.
   position: IT-Support
   duration:   Nov, 2016  &mdash; Apr, 2017
+  collapse: False
   summary: First-line IT helpdesk employee in a team. Analyzing and improving internal IT procedures. Worked with Active Directory, TOPdesk, Windows 10 and Office 365.

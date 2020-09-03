@@ -122,7 +122,27 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+            
+            
+            
+            
+                    
+
+            
+            
+            
           <p class="resume-item-copy">{{ job.summary }}</p>
+            
+            
+          {% if job.collapse %}
+
+          <button type="button" class="collapsible">{{ job.collapse_name }}</button>
+          <div class="content">
+            <p>{{ job.collapsed_text }}</p>
+          </div>     
+
+          {% endif %}     
+                
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -143,6 +163,15 @@
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
+            
+            
+            
+
+            
+            
+            
+            
+            
           <p class="resume-item-copy">{{ association.summary }}</p>
         </div>
         {% endfor %}
@@ -277,6 +306,25 @@
 
   </body>
 
+   
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+ 
+    
     
 <script>
 var coll = document.getElementsByClassName("collapsible");
@@ -290,10 +338,9 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = null;
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
-    } 
+    }
   });
 }
-</script>
-                
+</script>    
     
 </html>
