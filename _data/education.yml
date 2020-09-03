@@ -2,6 +2,7 @@
 - degree: MSc Materials Science & Engineering
   uni: Delft University of Technology
   year: Sept, 2018 &mdash; Present
+  collapse: False
   awards:
     - award: Self-defined specialisation &mdash; Plastics, sustainability and computational materials sciences
   # summary: If you had any meaningful roles at college, feel free to write about them here
@@ -10,18 +11,23 @@
   uni: Imperial College London
   year: Sept, 2019 &mdash; Dec, 2019
   collapse: True
+  collapse_name: Simulating the charge mobility of C<sub>16</sub>-IDTBT
   awards:
     - award: Simulating the charge mobility transfer of the copolymer C<sub>16</sub>-IDTBT with Kinetic Monte Carlo
 
+  collapsed_text: To enhance the performance of an organic solar cell, it is essential to investigate the microscopic features that affect the charge mobility in semiconducting materials. The co-polymer indacenodithiophene-benzothiadiazole (C<sub>16</sub>-IDTBT) has shown promising results for high mobility hole transfer. This research attempts to integrate the microscopic dynamics of this co-polymer onto the macroscopic simulation program ToFeT. The Time-of-Flight and field-effect transistor mobility measurements methods and their implementation in the simulation code are described. Subsequently, a network of inter and intramolecular interactions is built, and the morphology of C<sub>16</sub>-IDTBT is extracted from a molecular dynamics simulation in Gromacs. The resulting mobilities are compared with transient SCLC and FET experimental data from literature. The time-of-flight mobilities show similar behaviour with experimental transient SCLC mobilities. The electric field dependence can be explained by charges getting stuck at the end of chains with a higher field. The simulated mobility values are slightly higher than the experimental transient SCLC mobilities. This can be explained by the lack of implementing a transfer integral decay on the intermolecular separation distance. The field-effect-transistor simulation was unsuccessful and are not implemented in this report. In further research, more pair-wise interactions of a C<sub>16</sub>-IDTBT molecular dynamics simulation should be investigated. This additional data could be used to fit functions to vary the J-coupling. In conclusion, it is possible to simulate the charge mobility for long polymeric semiconductors using the Kinetic Monte Carlo ToFeT code.
 
 - degree: BSc Molecular Science & Technology
   uni: Delft University of Technology
   year: Sept, 2013 &mdash; Mar, 2018
+  collapse: True
+  collapse_name: Study of UiO-66 linkers' rotational dynamics
   awards:
     - award: BSc thesis project &mdash; Study of UiO-66 linkers' rotational dynamics
     - award: Minor &mdash; Sustainable Energy & Technology
     - award: Major &mdash; Chemical Technology
 
+  collapsed_text: Zeer matig stuk proza
 
 
 

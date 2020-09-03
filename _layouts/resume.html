@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 
+  
+    
+    
   {% include head.html %}
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
@@ -46,28 +49,7 @@
         {% else %}
         {% endif %}
 
-       
-        <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
-        }
-        </script>
-        
-        
-      </header>
-
-
+  
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
@@ -76,25 +58,49 @@
           <h2>Education</h2>
         </header>
 
+          
+
+          
+          
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+            
+
+            
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
+            
+            
+            
+            
+            
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
               {% for award in education.awards %}
               <li>{{ award.award }}</li>
               {% endfor %}
-            </ul></h5>
+            </ul></p>
         
-          {% if eduction.collapse %}
-          <button type="button" class="collapsible">Open Collapsible</button>
+        
+          {% if education.collapse %}
+
+          <button type="button" class="collapsible">{{ education.collapse_name }}</button>
           <div class="content">
-            <p>{{ site.collapsed_text }}</p>
+            <p>{{ education.collapsed_text }}</p>
           </div> 
+          
+          
+
+          
+          
+          
           {% endif %}
 
+        
+        
+
+        
 
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
@@ -271,4 +277,23 @@
 
   </body>
 
+    
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+                
+    
 </html>
