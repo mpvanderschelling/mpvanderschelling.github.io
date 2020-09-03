@@ -91,6 +91,13 @@
               <li>{{ award.award }}</li>
               {% endfor %}
             </ul></h5>
+        
+          {% if eduction.collapse %}
+          <button type="button" class="collapsible">Open Collapsible</button>
+          <div class="content">
+            <p>{{ site.collapsed_text }}</p>
+          </div> 
+          {% endif %}
 
 
           <p class="resume-item-copy">{{ education.summary }}</p>
