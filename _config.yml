@@ -31,6 +31,9 @@ resume_header_intro: "<p>	<b>Hi!</b> I'm trying to implement <b>computational mo
 
 <br><br>I'm looking for a challenging role within an innovative company to kickstart my career! </p>"
 
+
+collapsed_text: "Dit is een test tekstje"
+
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
