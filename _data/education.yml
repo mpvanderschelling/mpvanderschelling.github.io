@@ -9,9 +9,10 @@
 - degree: External Research Project
   uni: Imperial College London
   year: Sept, 2019 &mdash; Dec, 2019
+  collapse: True
   awards:
     - award: Simulating the charge mobility transfer of the copolymer C<sub>16</sub>-IDTBT with Kinetic Monte Carlo
-  collapse: "True"
+
 
 - degree: BSc Molecular Science & Technology
   uni: Delft University of Technology
