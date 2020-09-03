@@ -15,7 +15,7 @@
   border: none;
   text-align: center;
   outline: none;
-  font-size: 1.125rem;
+  font-size: 1. rem; //1.125rem
   @include sans_light;
   color: #333;
   line-height: 1; //55px
@@ -30,10 +30,10 @@
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 18px;
+  padding: 0 12px; //18px
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #efefef; //#f1f1f1
 } 
 
 
