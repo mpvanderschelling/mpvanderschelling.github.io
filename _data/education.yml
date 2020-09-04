@@ -2,10 +2,13 @@
 - degree: MSc Materials Science & Engineering
   uni: Delft University of Technology
   year: Sept, 2018 &mdash; Present
-  collapse: False
+  collapse: True
+  collapse_name: More info on my self-defined specialisation
   awards:
     - award: Self-defined specialisation &mdash; Plastics, sustainability and computational materials sciences
   # summary: If you had any meaningful roles at college, feel free to write about them here
+  
+  collapsed_text: Information on computational materials science, plastics and polymers and susainability.
 
 - degree: External Research Project
   uni: Imperial College London
@@ -27,9 +30,7 @@
     - award: Minor &mdash; Sustainable Energy & Technology
     - award: Major &mdash; Chemical Technology
 
-  collapsed_text: Zeer matig stuk proza
-
-
+  collapsed_text: Due to the ever-increasing demand for more efficient data storage, research into innovative ways of storage growing. To store data at the molecular level, rotating linkers of the UiO-66 metal-organic framework are investigated. Before we can control this rotation, the rotational dynamics of the 1,4-dicarboxylic linker will be researched. Two UiO-66 metal-organic frameworks functionalized with a polar -NH<sub>2</sub> and-NO<sub>2</sub> group respectively and a non-functionalized UiO-66 were synthesized. With the characterization techniques PXRD, DRIFTS, TGA and N<sub>2</sub> adsorption, it was concluded that the structure and surface area is the same as reported materials. There is water in all UiO-66 variants and DMF in UiO-66 and UiO-66-NO<sub>2</sub>. Subsequently, the dielectric properties were measured with Broadband Dielectric Spectroscopy. This showed that the temperature-dependent behaviour of the relaxation peak is at lower temperatures for UiO-66-NO<sub>2</sub> than UiO-66-NH<sub>2</sub>. In addition, we compared UiO-66-NO<sub>2</sub> with another MOF with the same BDC linker, MIL-53-NO<sub>2</sub>, and it showed that the dielectric relaxation is around the same temperature. This suggests that the interaction of the linker and the framework are of equal magnitude. Furthermore, Differential Scanning Calorimetry measurements showed no difference in heatflow for a stationary and a rotating linker. In conclusion, UiO-66-NO<sub>2</sub> has a similar interframework interaction as MIL-53-NO<sub>2</sub>. The large difference between relaxation temperatures for UiO-66-NH<sub>2</sub> and UiO-66-NO<sub>2</sub> may be explained by the interactions between the cornerstone and the linker which can hinder the rotation.
 
 #- degree: High School Diploma
 #  uni: Springfield High School
