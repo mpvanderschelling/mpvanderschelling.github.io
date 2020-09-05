@@ -8,7 +8,7 @@
     - award: Self-defined specialisation &mdash; Plastics, sustainability and computational materials sciences
   # summary: If you had any meaningful roles at college, feel free to write about them here
   
-  collapsed_text: Information on computational materials science, plastics and polymers and susainability.
+  collapsed_text: With a background in chemical engineering, I am interested in the world of polymers and soft matter. I took courses in ‘<b>Functional Coatings</b>’ and ‘<b>Self-healing Materials</b>’ to become an expert in incorporating chemistry in modern material science. In addition, the minor ‘Sustainable Energy and Technology’ and the MSc course ‘<b>Materials for Clean Energy Technology</b>‘ have taught me a lot about the world-wide drive of creating renewable energy and products. With my knowledge in chemical material sciences, I would like to be part of the global sustainability trend. Lastly, the course ‘<b>Polymer Science</b>’ has taught me that unconventional materials such as polymers are complex to model. Because of that, the multiple courses on <b>Computational Materials Science</b> are an essential aspect to my specialisation.
 
 - degree: External Research Project
   uni: Imperial College London
@@ -46,7 +46,17 @@
     - award: Minor &mdash; Sustainable Energy & Technology
     - award: Major &mdash; Chemical Technology
 
-  collapsed_text: Due to the ever-increasing demand for more efficient data storage, research into innovative ways of storage growing. To store data at the molecular level, rotating linkers of the UiO-66 metal-organic framework are investigated. Before we can control this rotation, the rotational dynamics of the 1,4-dicarboxylic linker will be researched. Two UiO-66 metal-organic frameworks functionalized with a polar -NH<sub>2</sub> and-NO<sub>2</sub> group respectively and a non-functionalized UiO-66 were synthesized. With the characterization techniques PXRD, DRIFTS, TGA and N<sub>2</sub> adsorption, it was concluded that the structure and surface area is the same as reported materials. There is water in all UiO-66 variants and DMF in UiO-66 and UiO-66-NO<sub>2</sub>. Subsequently, the dielectric properties were measured with Broadband Dielectric Spectroscopy. This showed that the temperature-dependent behaviour of the relaxation peak is at lower temperatures for UiO-66-NO<sub>2</sub> than UiO-66-NH<sub>2</sub>. In addition, we compared UiO-66-NO<sub>2</sub> with another MOF with the same BDC linker, MIL-53-NO<sub>2</sub>, and it showed that the dielectric relaxation is around the same temperature. This suggests that the interaction of the linker and the framework are of equal magnitude. Furthermore, Differential Scanning Calorimetry measurements showed no difference in heatflow for a stationary and a rotating linker. In conclusion, UiO-66-NO<sub>2</sub> has a similar interframework interaction as MIL-53-NO<sub>2</sub>. The large difference between relaxation temperatures for UiO-66-NH<sub>2</sub> and UiO-66-NO<sub>2</sub> may be explained by the interactions between the cornerstone and the linker which can hinder the rotation.
+  collapsed_text: <i>Due to the ever-increasing demand for efficient data storage, innovative ways of <b>storing data on the molecular level</b> is being investigated. To store data on the molecular level, rotating linkers of the <b>UiO-66 metal-organic framework</b> (MOF) are a possible candidate. Before we can control this rotation, the <b>rotational dynamics</b> of the 1,4-dicarboxylic linker are being researched. With the characterization techniques PXRD, DRIFTS, TGA and N<sub>2</sub>-adsorption, it was concluded that the structure and surface area is the same as reported materials. WIth broadband dielectric spectroscopy, the rotational dynamics of the metal-organic frameworks was examined. In addition, we compared UiO-66-NO<sub>2</sub> with another MOF with the same BDC linker, MIL-53-NO<sub>2</sub>, and it showed that the dielectric relaxation is around the same temperature. This suggests that the interaction of the linker and the framework is of equal magnitude. In conclusion, UiO-66-NO<sub>2</sub> has a similar interframework interaction as MIL-53-NO<sub>2</sub>. The large difference between relaxation temperatures for UiO-66-NH<sub>2</sub> and UiO-66-NO<sub>2</sub> may be explained by the <b>interactions between the cornerstone and the linker</b> which can hinder the rotation.</i><br>
+  
+   <figure>
+    <img src="images/bds_uio66nh2.png" alt="Broadband dielectric spectroscopy of UiO-66-NH2" class="centering" itemprop="image">
+    <figcaption class="figcaption">Low-frequency broadband dielectric spectroscopy of UiO-66-NH<sub>2</sub>.</figcaption>
+   </figure>
+  
+   During my bachelors thesis, I have gained <b>hands-on experience in a chemical lab</b> and can therefore work independently, safe and efficient.
+
+
+  
 
 #- degree: High School Diploma
 #  uni: Springfield High School
