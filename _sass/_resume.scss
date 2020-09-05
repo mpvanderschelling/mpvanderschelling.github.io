@@ -1,7 +1,21 @@
 // Resume styles
 // ---------------------------------------/
 
+.centering {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
 
+.figcaption {
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+  font-size: 0.9rem;
+
+}
  /* Style the button that is used to open and close the collapsible content */
 
 .collapsible {

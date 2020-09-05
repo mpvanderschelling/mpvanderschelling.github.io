@@ -18,8 +18,24 @@
   awards:
     - award: Simulating the charge mobility transfer of the copolymer C<sub>16</sub>-IDTBT with Kinetic Monte Carlo
 
-  collapsed_text: To enhance the performance of an organic solar cell, it is essential to investigate the microscopic features that affect the charge mobility in semiconducting materials. The co-polymer indacenodithiophene-benzothiadiazole (C<sub>16</sub>-IDTBT) has shown promising results for high mobility hole transfer. This research attempts to integrate the microscopic dynamics of this co-polymer onto the macroscopic simulation program ToFeT. The Time-of-Flight and field-effect transistor mobility measurements methods and their implementation in the simulation code are described. Subsequently, a network of inter and intramolecular interactions is built, and the morphology of C<sub>16</sub>-IDTBT is extracted from a molecular dynamics simulation in Gromacs. The resulting mobilities are compared with transient SCLC and FET experimental data from literature. The time-of-flight mobilities show similar behaviour with experimental transient SCLC mobilities. The electric field dependence can be explained by charges getting stuck at the end of chains with a higher field. The simulated mobility values are slightly higher than the experimental transient SCLC mobilities. This can be explained by the lack of implementing a transfer integral decay on the intermolecular separation distance. The field-effect-transistor simulation was unsuccessful and are not implemented in this report. In further research, more pair-wise interactions of a C<sub>16</sub>-IDTBT molecular dynamics simulation should be investigated. This additional data could be used to fit functions to vary the J-coupling. In conclusion, it is possible to simulate the charge mobility for long polymeric semiconductors using the Kinetic Monte Carlo ToFeT code.
+  collapsed_text: <i>To enhance the performance of <b>organic solar cells</b>, it is essential to investigate the microscopic features that affect the charge mobility in semiconducting materials. The co-polymer indacenodithiophene-benzothiadiazole (C<sub>16</sub>-IDTBT) has shown promising results for high mobility hole transfer. This research attempts to integrate the <b>microscopic dynamics</b> of this co-polymer onto the <b>macroscopic simulation program ToFeT</b>. The Time-of-Flight and field-effect transistor mobility measurements methods and their implementation in the simulation code are described. Subsequently, a <b>network of inter and intramolecular interactions</b> is built, and the morphology of C<sub>16</sub>-IDTBT is extracted from a molecular dynamics simulation in Gromacs. The resulting hole mobilities are compared with transient SCLC and FET experimental data from literature. The time-of-flight mobilities show similar behaviour with experimental transient SCLC mobilities.</i><br> 
+  
 
+  
+   <figure>
+    <img src="images/snapshotidtbt.png" alt="Snapshot of C16-IDTBT" class="centering" itemprop="image">
+    <figcaption class="figcaption">Molecular structure of C<sub>16</sub>-IDTBT.</figcaption>
+   </figure>
+   
+   From this 3 month internship, I have learned to work in an interdisciplinairy team. With limited prior knowledge of C, I managed to understand and use a complicated Kinetic Monte Carlo program and adapt it to my own research. Furthermore, I worked with <b>Python, bash and a cluster computernetwork</b>. The report was graded by Delft University of Technology and received a mark of <b>9.0/10</b>.<br>
+   
+   <figure>
+    <img src="images/flowchart.png" alt="Flowchart of the research project" width=100% itemprop="image">
+    <figcaption class="figcaption">Flowchart of the external research project.</figcaption>
+   </figure>
+   
+   This research was part of the EU funded project <a href="https://cordis.europa.eu/project/id/742708">CAPaCITy</a>.
+   
 - degree: BSc Molecular Science & Technology
   uni: Delft University of Technology
   year: Sept, 2013 &mdash; Mar, 2018
