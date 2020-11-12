@@ -15,9 +15,25 @@
 - company:  <a href="http://www.deklittenband.nl">V.O.F. De Klittenband</a>
   position: Keyboard player & manager
   duration: Feb, 2015 &mdash; Present
+  collapse: True
+  collapse_name: Awesome impression of the shows we did!
   summary: 
     - Studentcoverband with 30 shows per year. Manager of a small business since September 2018.
 
+  collapsed_text:
+  
+    <figure>
+     <img src="images/delft.jpg" alt="Show in Rotterdam" width=100% class="centering" itemprop="image">
+    </figure>
+    
+    <figure>
+     <img src="images/rotterdam.png" alt="Show in Rotterdam" width=100% class="centering" itemprop="image">
+    </figure>   
+
+    <figure>
+     <img src="images/sparkulars.jpeg" alt="Show in Rotterdam" width=100% class="centering" itemprop="image">
+    </figure>  
+    
 # VP of Global Communications
 - company: Delft University of Technology
   position: Teacher Assistant Computational Materials Science
