@@ -24,6 +24,7 @@
   
     <figure>
      <img src="images/delft.jpg" alt="Show in Rotterdam" width=100% class="centering" itemprop="image">
+     <figcaption class="figcaption"></figcaption>
     </figure>
     
     <figure>
