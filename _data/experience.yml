@@ -20,19 +20,22 @@
   summary: 
     - Studentcoverband with 30 shows per year. Manager of a small business since September 2018.
 
+
   collapsed_text:
-  
+   
     <figure>
-     <img src="images/delft.jpg" alt="Show in Rotterdam" width=100% class="centering" itemprop="image">
+     <img src="images/delft.jpg" alt="Show in Rotterdam" width=100% class="centeringfull" itemprop="image">
      <figcaption class="figcaption"></figcaption>
     </figure>
     
+    <div id="header">
     <figure>
-     <img src="images/rotterdam.jpg" alt="Show in Rotterdam" width=100% class="centering" itemprop="image">
-    </figure>   
+     <img src="images/rotterdam.jpg" alt="Show in Rotterdam" width=100% class="centeringfull" itemprop="image">
+    </figure>  
+    </div>
 
     <figure>
-     <img src="images/sparkulars.jpeg" alt="Show in Rotterdam" width=100% class="centering" itemprop="image">
+     <img src="images/sparkulars.jpeg" alt="Show in Rotterdam" width=100% class="centeringfull" itemprop="image">
     </figure>  
     
 # VP of Global Communications
