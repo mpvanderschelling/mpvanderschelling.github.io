@@ -8,7 +8,15 @@
   collapse_name: Bio-based composites optimization and towards a data-driven heuristic decision strategy
   summary: MSc thesis project &mdash; Bio-based composites optimization and towards a data-driven heuristic decision strategy
   
-  collapsed_text: Abstract of masters thesis and link to <a href="https://dataopt.readthedocs.io/en/latest/index.html">Read the Docs</a> page
+  collapsed_text: <i>The morphology and composition of materials can be optimized using large sets of data or simulation software. However, many material engineering issues do not comprehend large datasets or data cannot easily be acquired. The development of meta-heuristic strategies has gained a lot of attention in recent years as an attempt to deal with black-box optimization problems.<br>
+    <br><b>Bio-based composites</b><br>
+    Replacing existing petrochemical based products with bio-based alternatives requires a material design process towards specific natural composites with hand-tailored properties. Though, the manufacturing and testing of bio-based composites is very labour and time-intensive. Therefore, this thesis aims to combine data-scarce heuristic optimization with bio-based composite research, to accelerate the search towards optimal bio-based composite recipes.<br>
+    <br><b>Data-driven heuristic decision strategy</b><br>
+    The ''No Free Lunch'' theorem states that the capabilities of a certain meta-heuristics are dependent on problem-specific features. In the case of black-box optimization, problem-specific features are only discovered during and after the optimization process. However, the choice of meta-heuristic algorithm is often arbitrary or based on anecdotal evidence. In this thesis, we study if information gathered from a past optimization problem could give insight into new optimization problems.<br>
+    <br>
+    In an attempt to use the information from earlier black-box optimization problems, an effort is made to generate problem-specific optimization data. By collecting problem-specific information of various optimization benchmark problems and coupling this information to the best-performing meta-heuristics, we could gain insight into the domain of solvable problems for each heuristic. The heuristic decision for new optimization problems is dependent on the most successful heuristic from similar preceding cases. This way, we develop a data-driven heuristic decision strategy and comply with the message of the ''No Free Lunch'' theorem.</i><br>
+    <br>
+    For this project a meta-heuristic optimization model is be created in collaboration with NPSP B.V.
 
 
 # VP of Global Communications
