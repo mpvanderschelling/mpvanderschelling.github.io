@@ -6,6 +6,7 @@
   collapse_name: More info on my self-defined specialisation
   awards:
     - award: Self-defined specialisation &mdash; Plastics, sustainability and computational materials sciences
+    - award: MSc thesis project — A data-driven heuristic decision strategy for data-scarce optimization with an application towards bio-based composites. <b>Graded 9.5/10</b>.
   # summary: If you had any meaningful roles at college, feel free to write about them here
   
   collapsed_text: With a background in chemical engineering, I am interested in the world of polymers and soft matter. I took courses in ‘<b>Functional Coatings</b>’ and ‘<b>Self-healing Materials</b>’ to become an expert in incorporating chemistry in modern material science. In addition, the minor ‘Sustainable Energy and Technology’ and the MSc course ‘<b>Materials for Clean Energy Technology</b>‘ have taught me a lot about the world-wide drive of creating renewable energy and products. With my knowledge in chemical material sciences, I would like to be part of the global sustainability trend. Lastly, the course ‘<b>Polymer Science</b>’ has taught me that unconventional materials such as polymers are complex to model. Because of that, the multiple courses on <b>Computational Materials Science</b> are an essential aspect to my specialisation.
@@ -16,8 +17,7 @@
   collapse: True
   collapse_name: Simulating the charge mobility of C<sub>16</sub>-IDTBT
   awards:
-    - award: Simulating the charge mobility transfer of the copolymer C<sub>16</sub>-IDTBT with Kinetic Monte Carlo
-    - award: Graded 9.0/10
+    - award: Simulating the charge mobility transfer of the copolymer C<sub>16</sub>-IDTBT with Kinetic Monte Carlo. <b>Graded 9.0/10</b>.
 
   collapsed_text: <i>To enhance the performance of <b>organic solar cells</b>, it is essential to investigate the microscopic features that affect the charge mobility in semiconducting materials. The co-polymer indacenodithiophene-benzothiadiazole (C<sub>16</sub>-IDTBT) has shown promising results for high mobility hole transfer. This research attempts to integrate the <b>microscopic dynamics</b> of this co-polymer onto the <b>macroscopic simulation program ToFeT</b>. The Time-of-Flight and field-effect transistor mobility measurements methods and their implementation in the simulation code are described. Subsequently, a <b>network of inter and intramolecular interactions</b> is built, and the morphology of C<sub>16</sub>-IDTBT is extracted from a molecular dynamics simulation in Gromacs. The resulting hole mobilities are compared with transient SCLC and FET experimental data from literature. The time-of-flight mobilities show similar behaviour with experimental transient SCLC mobilities.</i><br> 
   
