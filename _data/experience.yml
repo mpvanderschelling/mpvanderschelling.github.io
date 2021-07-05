@@ -15,7 +15,7 @@
   duration: Mar, 2020 &mdash; Mar, 2021
   collapse: True
   collapse_name: A data-driven heuristic decision strategy for data-scarce optimization with an application towards bio-based composites
-  summary: NPSP B.V. is a research and development company within the field of bio-based composites. New circular materials are being produced by using materials from waste streams.<br><br> During this project I developed a Bayesian optimization model to enhance their research. This application uses the mechanical properties of different composite recipes to predict which material ratios need to be adjusted in order to produce better natural composites.<br><br> Besides this specific application of algorithmic optimization, I delved deeper into meta-heuristics and meta-learning. Based on the loss-landscape of general optimization problems, I have developed a unique reinforcement-learning system in which the most competent algorithm is chosen for the right problem.<br><br> For this I satisfied the following activities:<ul class="resume-item-list"><li>Translated researchers' questions into software requirements</li><li>Carried out a thorough literature review and academic reporting</li><li>Simulations performed on a cluster computer network</li><li>Gave multiple oral presentations; both for the client and the employer</li><li>Concise documentation supplied for the application</li></ul><br><br>The application and study were very well received and the project received an excellent rating of <b>9.5/10</b>.
+  summary: NPSP B.V. is a research and development company within the field of bio-based composites. New circular materials are being produced by using materials from waste streams.<br><br> During this project I developed a Bayesian optimization model to enhance their research. This application uses the mechanical properties of different composite recipes to predict which material ratios need to be adjusted in order to produce better natural composites.<br><br> Besides this specific application of algorithmic optimization, I delved deeper into meta-heuristics and meta-learning. Based on the loss-landscape of general optimization problems, I have developed a unique reinforcement-learning system in which the most competent algorithm is chosen for the right problem.<br><br> For this I satisfied the following activities:<ul class="resume-item-list"><li>Translated researchers' questions into software requirements</li><li>Carried out a thorough literature review and academic reporting</li><li>Simulations performed on a cluster computer network</li><li>Gave multiple oral presentations; both for the client and the employer</li><li>Concise documentation supplied for the application</li></ul>The application and study were very well received and the project received an excellent rating of <b>9.5/10</b>.
   
   collapsed_text: <i><b>Algorithmic optimization</b> is a viable tool for solving complex materials engineering issues. In this study, a <b>data-scarce Bayesian optimization model</b> was developed to research the composition of <b>bio-based composites</b>. The proof-of-concept program adjusts the natural materials'' weight ratios to optimize towards user-defined mechanical properties. Preliminary results show that the bio-composites proposed by the program had improved properties compared to existing bulk-moulding compounds.<br><br>  However, the algorithm choice is often arbitrary or based on anecdotal evidence. In parallel, this thesis proposed a <b>data-driven framework for general data-scarce optimization</b> problems to adapt the meta-heuristic during optimization. Guided by the ''No Free Lunch'' theorem, we verified that the effectiveness over a selection of algorithms is dependent on <b>problem-specific features</b> and convergence. This effectiveness was captured in a unique identifier metric by optimizing a generated training set of optimization problems. The average solution quality was improved by combining several meta-heuristics in series, based on these problem-specifics. During the optimization of problems in the testing set, the same unique identifier was constructed at predefined stages in the optimization process. Subsequently, the problem was classified, and the meta-heuristic was adapted to the best-performing algorithm based on similar training samples. <br><br>Experiments with various classifiers and a different number of predefined assessment stages were performed. Results show that the data-driven heuristic decision strategy <b>outperformed the individual optimizers on the testing set</b>. Despite the use of binarization techniques, the classification accuracy was heavily influenced by the imbalanced training set. In terms of computational resources, the various adaptions of the data-driven heuristic strategy are <b>2.5 times faster in runtime</b> compared to the best-performing meta-heuristic Bayesian Optimization. Lastly, the framework was benchmarked against the ''learning to optimize'' study and shows excellent performance on the logistic regression problem compared to the autonomous optimizer. In conclusion, it has been shown that even with the limited information of black-box optimization problems, data-driven optimization effectively improves the current standard of materials engineering processes.</i><br>
    <figure>
@@ -27,51 +27,84 @@
    This masters thesis project was graded with 9.5/10.
 
 
-# VP of Global Communications
-- company:  <a href="http://www.deklittenband.nl">V.O.F. De Klittenband</a>
-  position: Keyboard player & manager
-  duration: Feb, 2015 &mdash; Present
+- company: Imperial College London
+  position: Guest researcher
+  duration: Sept, 2019 &mdash; Dec, 2019
   collapse: True
-  collapse_name: Awesome impression of the shows we did!
-  summary: 
-    - Studentcoverband with 30 shows per year. Manager of a small business since September 2018.
+  collapse_name: Simulating the charge mobility of C<sub>16</sub>-IDTBT
+  summary: Imperial College London is a leading technical university in London. To increase the efficiency of organic solar cells, research is conducted into the charge mobility transfer of semi-conductor materials.<br><br> During a three-month research project I worked on the implementation of a promising copolymer in a macroscopic Kinetic Monte-Carlo model. I have implemented the supplied molecular structure by means of my own Python program to the requirements of the simulation model.<br><br>During the project I was responsible for:<ul class="resume-item-list"><li>The time schedule of the project</li><li>Collaborating with researchers from multiple universities</li><li>Run simulations on a cluster computer network</li><li>Documenting and presenting the project</li></ul>The project was completed on time and graded <b>9.0/10</b>.
 
+  collapsed_text: <i>To enhance the performance of <b>organic solar cells</b>, it is essential to investigate the microscopic features that affect the charge mobility in semiconducting materials. The co-polymer indacenodithiophene-benzothiadiazole (C<sub>16</sub>-IDTBT) has shown promising results for high mobility hole transfer. This research attempts to integrate the <b>microscopic dynamics</b> of this co-polymer onto the <b>macroscopic simulation program ToFeT</b>. The Time-of-Flight and field-effect transistor mobility measurements methods and their implementation in the simulation code are described. Subsequently, a <b>network of inter and intramolecular interactions</b> is built, and the morphology of C<sub>16</sub>-IDTBT is extracted from a molecular dynamics simulation in Gromacs. The resulting hole mobilities are compared with transient SCLC and FET experimental data from literature. The time-of-flight mobilities show similar behaviour with experimental transient SCLC mobilities.</i><br> 
+  
 
-  collapsed_text:
+  
+   <figure>
+    <img src="images/snapshotidtbt.png" alt="Snapshot of C16-IDTBT" class="centering" itemprop="image">
+    <figcaption class="figcaption">Molecular structure of C<sub>16</sub>-IDTBT.</figcaption>
+   </figure>
    
-    <figure>
-     <img src="images/delft.jpg" alt="Show at Openingsfeest Delft" width=100% class="centeringfull" itemprop="image">
-     <figcaption class="figcaption"></figcaption>
-    </figure>
-    
-    <div id="header">
-    <figure>
-     <img src="images/rotterdam.jpg" alt="Show at Eurekaweek Rotterdam" width=100% class="centeringfull" itemprop="image">
-    </figure>  
-    </div>
+   From this 3 month internship, I have learned to work in an interdisciplinairy team. With limited prior knowledge of C, I managed to understand and use a complicated Kinetic Monte Carlo program and adapt it to my own research. Furthermore, I worked with <b>Python, bash and a cluster computernetwork</b>. The report was graded by Delft University of Technology and received a mark of <b>9.0/10</b>.<br>
+   
+   <figure>
+    <img src="images/flowchart.png" alt="Flowchart of the research project" width=100% itemprop="image">
+    <figcaption class="figcaption">Flowchart of the external research project.</figcaption>
+   </figure>
+   
+   This research was part of the EU funded project <a href="https://cordis.europa.eu/project/id/742708">CAPaCITy</a>.
 
-    <figure>
-     <img src="images/sparkulars.jpeg" alt="Show at lustrum Virgiel" width=100% class="centeringfull" itemprop="image">
-    </figure>  
+# VP of Global Communications
+#- company:  <a href="http://www.deklittenband.nl">V.O.F. De Klittenband</a>
+#  position: Keyboard player & manager
+#  duration: Feb, 2015 &mdash; Present
+#  collapse: True
+#  collapse_name: Awesome impression of the shows we did!
+#  summary: 
+#    - Studentcoverband with 30 shows per year. Manager of a small business since September 2018.
+
+
+#  collapsed_text:
+#   
+#    <figure>
+#     <img src="images/delft.jpg" alt="Show at Openingsfeest Delft" width=100% class="centeringfull" itemprop="image">
+#     <figcaption class="figcaption"></figcaption>
+#    </figure>
+    
+#    <div id="header">
+#    <figure>
+#     <img src="images/rotterdam.jpg" alt="Show at Eurekaweek Rotterdam" width=100% class="centeringfull" itemprop="image">
+#    </figure>  
+#    </div>
+
+#    <figure>
+#     <img src="images/sparkulars.jpeg" alt="Show at lustrum Virgiel" width=100% class="centeringfull" itemprop="image">
+#    </figure>  
     
 # VP of Global Communications
 - company: Delft University of Technology
   position: Teacher Assistant Computational Materials Science
   duration: Feb, 2020 &mdash; Apr, 2020
   collapse: False
-  summary: Grading assignments and giving feedback for the mastercourse ’Computational Materials Sciences I’
-  
-# Director of Digital Stratgy
-- company: Ampelmann B.V.
-  position: Jr. IT-support
-  duration:  May, 2018 &mdash; July, 2018
+  summary: During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
+
+# OGD
+  - company: OGD ict-diensten
+  position: IT-support
+  duration:  Nov, 2016 &mdash; July, 2018
   collapse: False
   summary: First line IT-desk co-worker in a team. Setting-up of internal IT-procedures.
+  
+# Director of Digital Stratgy
+#- company: Ampelmann B.V.
+#  position: Jr. IT-support
+#  duration:  May, 2018 &mdash; July, 2018
+#  collapse: False
+#  summary: First line IT-desk co-worker in a team. Setting-up of internal IT-procedures.
 
 
 # Communications Coordinator
-- company: Priva B.V.
-  position: IT-Support
-  duration:   Nov, 2016  &mdash; Apr, 2017
-  collapse: False
-  summary: First-line IT helpdesk employee in a team. Analyzing and improving internal IT procedures. Worked with Active Directory, TOPdesk, Windows 10 and Office 365.
+#- company: Priva B.V.
+#  position: IT-Support
+#  duration:   Nov, 2016  &mdash; Apr, 2017
+#  collapse: False
+#  summary: First-line IT helpdesk employee in a team. Analyzing and improving internal IT procedures. Worked with Active Directory, TOPdesk, Windows 10 and Office 365.
+
