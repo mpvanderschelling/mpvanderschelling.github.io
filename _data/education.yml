@@ -17,7 +17,6 @@
   collapse: True
   collapse_name: Simulating the charge mobility of C<sub>16</sub>-IDTBT
   awards:
-   can this be done<br>
     - award: Simulating the charge mobility transfer of the copolymer C<sub>16</sub>-IDTBT with Kinetic Monte Carlo. <b>Graded 9.0/10</b>.
 
   collapsed_text: <i>To enhance the performance of <b>organic solar cells</b>, it is essential to investigate the microscopic features that affect the charge mobility in semiconducting materials. The co-polymer indacenodithiophene-benzothiadiazole (C<sub>16</sub>-IDTBT) has shown promising results for high mobility hole transfer. This research attempts to integrate the <b>microscopic dynamics</b> of this co-polymer onto the <b>macroscopic simulation program ToFeT</b>. The Time-of-Flight and field-effect transistor mobility measurements methods and their implementation in the simulation code are described. Subsequently, a <b>network of inter and intramolecular interactions</b> is built, and the morphology of C<sub>16</sub>-IDTBT is extracted from a molecular dynamics simulation in Gromacs. The resulting hole mobilities are compared with transient SCLC and FET experimental data from literature. The time-of-flight mobilities show similar behaviour with experimental transient SCLC mobilities.</i><br> 
