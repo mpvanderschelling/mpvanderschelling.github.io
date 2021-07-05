@@ -6,7 +6,7 @@
   collapse_name: More info on my self-defined specialisation
   awards:
     - award: Self-defined specialisation &mdash; Plastics, sustainability and computational materials sciences
-    - award: MSc thesis project — A data-driven heuristic decision strategy for data-scarce optimization with an application towards bio-based composites. <b>Graded 9.5/10</b>.
+    - award: MSc thesis &mdash; A data-driven heuristic decision strategy for data-scarce optimization with an application towards bio-based composites. <b>Graded 9.5/10</b>.
   # summary: If you had any meaningful roles at college, feel free to write about them here
   
   collapsed_text: With a background in chemical engineering, I am interested in the world of polymers and soft matter. I took courses in ‘<b>Functional Coatings</b>’ and ‘<b>Self-healing Materials</b>’ to become an expert in incorporating chemistry in modern material science. In addition, the minor ‘Sustainable Energy and Technology’ and the MSc course ‘<b>Materials for Clean Energy Technology</b>‘ have taught me a lot about the world-wide drive of creating renewable energy and products. With my knowledge in chemical material sciences, I would like to be part of the global sustainability trend. Lastly, the course ‘<b>Polymer Science</b>’ has taught me that unconventional materials such as polymers are complex to model. Because of that, the multiple courses on <b>Computational Materials Science</b> are an essential aspect to my specialisation.
@@ -14,7 +14,7 @@
 - degree: External Research Project
   uni: Imperial College London
   year: Sept, 2019 &mdash; Dec, 2019
-  collapse: True
+  collapse: False
   collapse_name: Simulating the charge mobility of C<sub>16</sub>-IDTBT
   awards:
     - award: Simulating the charge mobility transfer of the copolymer C<sub>16</sub>-IDTBT with Kinetic Monte Carlo. <b>Graded 9.0/10</b>.
@@ -40,12 +40,12 @@
 - degree: BSc Molecular Science & Technology
   uni: Delft University of Technology
   year: Sept, 2013 &mdash; Mar, 2018
-  collapse: True
+  collapse: False
   collapse_name: Study of UiO-66 linkers' rotational dynamics
   awards:
-    - award: BSc thesis project &mdash; Study of UiO-66 linkers' rotational dynamics
+    - award: BSc thesis &mdash; Study of UiO-66 linkers' rotational dynamics
     - award: Minor &mdash; Sustainable Energy & Technology
-    - award: Major &mdash; Chemical Technology
+   # - award: Major &mdash; Chemical Technology
 
   collapsed_text: <i>Due to the ever-increasing demand for efficient data storage, innovative ways of <b>storing data on the molecular level</b> is being investigated. To store data on the molecular level, rotating linkers of the <b>UiO-66 metal-organic framework</b> (MOF) are a possible candidate. Before we can control this rotation, the <b>rotational dynamics</b> of the 1,4-dicarboxylic linker are being researched. With the characterization techniques PXRD, DRIFTS, TGA and N<sub>2</sub>-adsorption, it was concluded that the structure and surface area is the same as reported materials. WIth broadband dielectric spectroscopy, the rotational dynamics of the metal-organic frameworks was examined. In addition, we compared UiO-66-NO<sub>2</sub> with another MOF with the same BDC linker, MIL-53-NO<sub>2</sub>, and it showed that the dielectric relaxation is around the same temperature. This suggests that the interaction of the linker and the framework is of equal magnitude. In conclusion, UiO-66-NO<sub>2</sub> has a similar interframework interaction as MIL-53-NO<sub>2</sub>. The large difference between relaxation temperatures for UiO-66-NH<sub>2</sub> and UiO-66-NO<sub>2</sub> may be explained by the <b>interactions between the cornerstone and the linker</b> which can hinder the rotation.</i><br>
   
