@@ -167,7 +167,19 @@
             
             
 
-            
+          {% if association.collapse %}
+
+          <button type="button" class="collapsible">{{ association.collapse_name }}</button>
+          <div class="content">
+            <p>{{ association.collapsed_text }}</p>
+          </div> 
+          
+          
+
+          
+          
+          
+          {% endif %}            
             
             
             
