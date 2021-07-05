@@ -24,7 +24,6 @@
    </figure>
    <br>
    The Bayesian optimization model for bio-based composite research was developed in collaboration with NPSP B.V. The model is open-source and can be found <a href="https://github.com/mpvanderschelling/BMC-optimizer">here</a>.<br><br>
-   This masters thesis project was graded with 9.5/10.
 
 
 - company: Imperial College London
@@ -53,33 +52,6 @@
    This research was part of the EU funded project <a href="https://cordis.europa.eu/project/id/742708">CAPaCITy</a>.
 
 # VP of Global Communications
-#- company:  <a href="http://www.deklittenband.nl">V.O.F. De Klittenband</a>
-#  position: Keyboard player & manager
-#  duration: Feb, 2015 &mdash; Present
-#  collapse: True
-#  collapse_name: Awesome impression of the shows we did!
-#  summary: 
-#    - Studentcoverband with 30 shows per year. Manager of a small business since September 2018.
-
-
-#  collapsed_text:
-#   
-#    <figure>
-#     <img src="images/delft.jpg" alt="Show at Openingsfeest Delft" width=100% class="centeringfull" itemprop="image">
-#     <figcaption class="figcaption"></figcaption>
-#    </figure>
-    
-#    <div id="header">
-#    <figure>
-#     <img src="images/rotterdam.jpg" alt="Show at Eurekaweek Rotterdam" width=100% class="centeringfull" itemprop="image">
-#    </figure>  
-#    </div>
-
-#    <figure>
-#     <img src="images/sparkulars.jpeg" alt="Show at lustrum Virgiel" width=100% class="centeringfull" itemprop="image">
-#    </figure>  
-    
-# VP of Global Communications
 - company: Delft University of Technology
   position: Teacher Assistant Computational Materials Science
   duration: Feb, 2020 &mdash; Apr, 2020
@@ -107,4 +79,32 @@
 #  duration:   Nov, 2016  &mdash; Apr, 2017
 #  collapse: False
 #  summary: First-line IT helpdesk employee in a team. Analyzing and improving internal IT procedures. Worked with Active Directory, TOPdesk, Windows 10 and Office 365.
+
+# VP of Global Communications
+#- company:  <a href="http://www.deklittenband.nl">V.O.F. De Klittenband</a>
+#  position: Keyboard player & manager
+#  duration: Feb, 2015 &mdash; Present
+#  collapse: True
+#  collapse_name: Awesome impression of the shows we did!
+#  summary: 
+#    - Studentcoverband with 30 shows per year. Manager of a small business since September 2018.
+
+
+#  collapsed_text:
+#   
+#    <figure>
+#     <img src="images/delft.jpg" alt="Show at Openingsfeest Delft" width=100% class="centeringfull" itemprop="image">
+#     <figcaption class="figcaption"></figcaption>
+#    </figure>
+    
+#    <div id="header">
+#    <figure>
+#     <img src="images/rotterdam.jpg" alt="Show at Eurekaweek Rotterdam" width=100% class="centeringfull" itemprop="image">
+#    </figure>  
+#    </div>
+
+#    <figure>
+#     <img src="images/sparkulars.jpeg" alt="Show at lustrum Virgiel" width=100% class="centeringfull" itemprop="image">
+#    </figure>  
+    
 
