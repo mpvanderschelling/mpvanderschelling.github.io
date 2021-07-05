@@ -6,8 +6,10 @@
 - company: <a href="https://www.alten.nl">ALTEN Nederland</a>
   position: Consultant Technology
   duration: May, 2021 &mdash; Present
-  collapse: False
+  collapse: True
+  collapse_name: Masterclass Scienctific Software Engineering
   summary: Technical Software West
+  collapsed_text: The ALTEN Technical Software Masterclass is a 6 week course covering C++ and Object Oriented Programming. During this Masterclass an autonomous player is programmed for a client-server framework of the game Bomberman. The focus of the project is on learning good programming practices and knowledge about Git, software design and scrum are also implemented.<br><br> The following activities are covered during the masterclass:<ul class="resume-item-list"><li>Delivery of a document containing the various design choices and diagrams for Object Oriented Programming (UML)</li><li>Implementing an AI agent that can make intelligent choices in C++</li><li>Unit testing of the implemented code.</li><li>Presenting the finished project and the developed software.</li></ul> The end result and a process report are presented to ALTEN colleagues and a small tournament is held to demonstrate the Bomberman player.
 
 # VP of Global Communications
 - company:  <a href="http://www.npsp.nl">NPSP B.V.</a>
@@ -59,16 +61,16 @@
   collapse: True
   collapse_name: Activities as Teacher Assistant
   summary: test #During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
-  collapsed_text: During the master's program 'Materials Science and Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
+  collapsed_text: During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
 
 
 
 # OGD
-- company: OGD ict-diensten
+- company: <a href="https://www.ogd.nl/">OGD ict-diensten</a>
   position: IT-support
   duration:  Nov, 2016 &mdash; July, 2018
   collapse: False
-  summary: First line IT-desk co-worker in a team. Setting-up of internal IT-procedures.
+  summary: First line IT-desk co-worker in a team. Setting-up of internal IT-procedures.<ul class="resume-item-list"><li>Ampelmann B.V. (May, 2018 &mdash; July, 2018)</li><li>Priva B.V. (Nov, 2016 &mdash; Apr, 2017)</li></ul>
   
 # Director of Digital Stratgy
 #- company: Ampelmann B.V.
