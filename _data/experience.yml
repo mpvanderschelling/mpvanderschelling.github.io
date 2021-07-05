@@ -56,8 +56,12 @@
 - company: Delft University of Technology
   position: Teacher Assistant Computational Materials Science
   duration: Feb, 2020 &mdash; Apr, 2020
-  collapse: False
-  summary: #During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
+  collapse: True
+  collapse_name: Activities as Teacher Assistant
+  summary: test #During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
+  collapsed_text: During the master's program 'Materials Science and Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
+
+
 
 # OGD
   - company: OGD ict-diensten
