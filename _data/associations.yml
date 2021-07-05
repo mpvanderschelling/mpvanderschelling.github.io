@@ -1,6 +1,31 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
+# VP of Global Communications
+- organization:  <a href="http://www.deklittenband.nl">V.O.F. De Klittenband</a>
+  role: Keyboard player & manager
+  year: Feb, 2015 &mdash; Present
+  collapse: True
+  collapse_name: Awesome impression of the shows we did!
+  summary: Studentcoverband with 30 shows per year. Manager of a small business since September 2018.
+
+  collapsed_text:
+   
+    <figure>
+     <img src="images/delft.jpg" alt="Show at Openingsfeest Delft" width=100% class="centeringfull" itemprop="image">
+     <figcaption class="figcaption"></figcaption>
+    </figure>
+    
+    <div id="header">
+    <figure>
+     <img src="images/rotterdam.jpg" alt="Show at Eurekaweek Rotterdam" width=100% class="centeringfull" itemprop="image">
+    </figure>  
+    </div>
+
+    <figure>
+     <img src="images/sparkulars.jpeg" alt="Show at lustrum Virgiel" width=100% class="centeringfull" itemprop="image">
+    </figure>  
+
 - organization: Student Association 'Tubalkain'
   role: Board of Studies member
   year: 2018 &mdash; 2019
