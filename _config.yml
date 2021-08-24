@@ -54,7 +54,7 @@ resume_social_links:
   # resume_facebook_url:          "https://www.facebook.com/martin.vanderschelling"
   resume_linkedin_url:          "https://www.linkedin.com/in/mpvanderschelling/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  # resume_website_url:           "http://joelglovier.com"
+  resume_website_url:           "https://mpvanderschelling.github.io/feestboek/"
   # resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
