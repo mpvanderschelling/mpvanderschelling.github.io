@@ -16,7 +16,7 @@
   position: Test engineer
   duration: July, 2021 &mdash; Nov 2021
   collapse: True
-  collapse_name: Portable clamp&mdash;on and Foodflux project
+  collapse_name: Portable clamp-on and Foodflux project
   summary: Consultant via ALTEN Nederland
   collapsed_text: KROHNE is a world-leading manufacturer and supplier of solutions in industrial process instrumentation. The portable clamp-on project is a detachable flowmeter which is supported with an Android application in order to send and display information from the flowsensor.<br><br>I fulfilled the role as a test engineer for the Android application and have conducted the following activities:<ul class="resume-item-list"><li>Performing manual integration testing</li><li>Developing automatic test scripts with Xamarin UITest in C#</li><li>Using an in-house test suite application to conduct data verification of the KROHNE flowmeter in JavaScript</li><li>Generating test reports and managing the communication between the development team</li></ul>In parallel, I worked on the development of power profiling tests for the hygienic flowsensor Foodflux. Within this project, I have worked on the following activities:<ul class="resume-item-list"><li>Developing automatic power profiling tests in JavaScript</li><li>Developing data anlysis scripts in Python 3</li><li>Maintaining Arduino C++ code for a servo potentiometer</li></ul>
 
