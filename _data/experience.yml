@@ -12,6 +12,17 @@
   collapsed_text: The ALTEN Technical Software Masterclass is a 6 week course covering C++ and Object Oriented Programming. During this Masterclass an autonomous player is programmed for a client-server framework of the game Bomberman. The focus of the project is on learning good programming practices and knowledge about Git, software design and scrum are also implemented.<br><br> The following activities are covered during the masterclass:<ul class="resume-item-list"><li>Delivery of a document containing the various design choices and diagrams for Object Oriented Programming (UML)</li><li>Implementing an AI agent that can make intelligent choices in C++</li><li>Unit testing of the implemented code.</li><li>Presenting the finished project and the developed software.</li></ul> The end result and a process report are presented to ALTEN colleagues and a small tournament is held to demonstrate the Bomberman player.
 
 # VP of Global Communications
+- company: <a href="https://nl.krohne.com/nl/">KROHNE New Technologies</a>
+  position: Test engineer
+  duration: July, 2021 &mdash; Nov 2021
+  collapse: True
+  collapse_name: Portable clamp&mdash;on and Foodflux project
+  summary: Consultant via ALTEN Nederland
+  collapsed_text: KROHNE is a world-leading manufacturer and supplier of solutions in industrial process instrumentation. The portable clamp-on project is a detachable flowmeter which is supported with an Android application in order to send and display information from the flowsensor.<br><br>I fulfilled the role as a test engineer for the Android application and have conducted the following activities:<ul class="resume-item-list"><li>Performing manual integration testing</li><li>Developing automatic test scripts with Xamarin UITest in C#</li><li>Using an in-house test suite application to conduct data verification of the KROHNE flowmeter in JavaScript</li><li>Generating test reports and managing the communication between the development team</li></ul>In parallel, I worked on the development of power profiling tests for the hygienic flowsensor Foodflux. Within this project, I have worked on the following activities:<ul class="resume-item-list"><li>Developing automatic power profiling tests in JavaScript</li><li>Developing data anlysis scripts in Python 3</li><li>Maintaining Arduino C++ code for a servo potentiometer</li></ul>
+
+
+
+# VP of Global Communications
 - company:  <a href="http://www.npsp.nl">NPSP B.V.</a>
   position: Graduation student
   duration: Mar, 2020 &mdash; Mar, 2021
