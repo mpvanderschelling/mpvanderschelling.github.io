@@ -14,7 +14,7 @@
 - degree: External Research Project
   uni: Imperial College London
   year: Sept, 2019 &mdash; Dec, 2019
-  collapse: False
+  collapse: True
   collapse_name: Simulating the charge mobility of C<sub>16</sub>-IDTBT
   awards:
     - award: Simulating the charge mobility transfer of the copolymer C<sub>16</sub>-IDTBT with Kinetic Monte Carlo. <b>Graded 9.0/10</b>.
@@ -40,7 +40,7 @@
 - degree: BSc Molecular Science & Technology
   uni: Delft University of Technology
   year: Sept, 2013 &mdash; Mar, 2018
-  collapse: False
+  collapse: True
   collapse_name: Study of UiO-66 linkers' rotational dynamics
   awards:
     - award: BSc thesis &mdash; Study of UiO-66 linkers' rotational dynamics
@@ -55,12 +55,3 @@
    </figure>
   
    During my bachelors thesis, I have gained <b>hands-on experience in a chemical lab</b> and can therefore work independently, safe and efficient.
-
-
-  
-
-#- degree: High School Diploma
-#  uni: Springfield High School
-#  year: 2004
-#  award: Most likely to succeed
-#  summary: You can choose to have either a single or multiple awards

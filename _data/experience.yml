@@ -18,7 +18,7 @@
   collapse: True
   collapse_name: Portable clamp-on and Foodflux project
   summary: Consultant via ALTEN Nederland
-  collapsed_text: KROHNE is a world-leading manufacturer and supplier of solutions in industrial process instrumentation. The portable clamp-on project is a detachable flowmeter which is supported with an Android application in order to send and display information from the flowsensor.<br><br>I fulfilled the role as a test engineer for the Android application and have conducted the following activities:<ul class="resume-item-list"><li>Performing manual integration testing</li><li>Developing automatic test scripts with Xamarin UITest in C#</li><li>Using an in-house test suite application to conduct data verification of the KROHNE flowmeter in JavaScript</li><li>Generating test reports and managing the communication between the development team</li></ul>In parallel, I worked on the development of power profiling tests for the hygienic flowsensor Foodflux. Within this project, I have worked on the following activities:<ul class="resume-item-list"><li>Developing automatic power profiling tests in JavaScript</li><li>Developing data anlysis scripts in Python 3</li><li>Maintaining Arduino C++ code for a servo potentiometer</li></ul>
+  collapsed_text: KROHNE is a world-leading manufacturer and supplier of solutions in industrial process instrumentation. The portable clamp-on project is a detachable flowmeter which is supported with an Android application in order to send and display information from the flowsensor.<br><br>I fulfilled the role as a test engineer for the Android application and have conducted the following activities:<ul class="resume-item-list"><li>Performing manual integration testing</li><li>Developing automatic test scripts with Xamarin UITest in C#</li><li>Using an in-house test suite application to conduct data verification of the KROHNE flowmeter in JavaScript</li><li>Generating test reports and managing the communication between the development team</li></ul>In parallel, I worked on the development of power profiling tests for the hygienic flowsensor Foodflux. Within this project, I have worked on the following activities:<ul class="resume-item-list"><li>Developing automatic power profiling tests in JavaScript</li><li>Developing data analysis scripts in Python 3</li><li>Maintaining Arduino C++ code for a servo potentiometer</li></ul>
 
 
 
@@ -38,12 +38,12 @@
   # The Bayesian optimization model for bio-based composite research was developed in collaboration with NPSP B.V. The model is open-source and can be found <a href="https://github.com/mpvanderschelling/BMC-optimizer">here</a>.<br><br>
   collapsed_text: NPSP B.V. is a research and development company within the field of bio-based composites. New circular materials are being produced by using materials from waste streams.<br><br> During this project I developed a Bayesian optimization model to enhance their research. This application uses the mechanical properties of different composite recipes to predict which material ratios need to be adjusted in order to produce better natural composites.<br><br> Besides this specific application of algorithmic optimization, I delved deeper into meta-heuristics and meta-learning. Based on the loss-landscape of general optimization problems, I have developed a unique reinforcement-learning system in which the most competent algorithm is chosen for the right problem.<br><br> For this I satisfied the following activities:<ul class="resume-item-list"><li>Translated researchers' questions into software requirements</li><li>Carried out a thorough literature review and academic reporting</li><li>Simulations performed on a cluster computer network</li><li>Gave multiple oral presentations; both for the client and the employer</li><li>Concise documentation supplied for the application</li></ul>The application and study were very well received and the project received an excellent rating of <b>9.5/10</b>.
 
-- company: Imperial College London
-  position: Guest researcher
-  duration: Sept, 2019 &mdash; Dec, 2019
-  collapse: True
-  collapse_name: Simulating the charge mobility of C<sub>16</sub>-IDTBT
-  summary: test
+# - company: Imperial College London
+#   position: Guest researcher
+#   duration: Sept, 2019 &mdash; Dec, 2019
+#   collapse: True
+#   collapse_name: Simulating the charge mobility of C<sub>16</sub>-IDTBT
+#   summary: test
   #collapsed_text: <i>To enhance the performance of <b>organic solar cells</b>, it is essential to investigate the microscopic features that affect the charge mobility in semiconducting materials. The co-polymer indacenodithiophene-benzothiadiazole (C<sub>16</sub>-IDTBT) has shown promising results for high mobility hole transfer. This research attempts to integrate the <b>microscopic dynamics</b> of this co-polymer onto the <b>macroscopic simulation program ToFeT</b>. The Time-of-Flight and field-effect transistor mobility measurements methods and their implementation in the simulation code are described. Subsequently, a <b>network of inter and intramolecular interactions</b> is built, and the morphology of C<sub>16</sub>-IDTBT is extracted from a molecular dynamics simulation in Gromacs. The resulting hole mobilities are compared with transient SCLC and FET experimental data from literature. The time-of-flight mobilities show similar behaviour with experimental transient SCLC mobilities.</i><br> 
   
 
@@ -61,7 +61,7 @@
   # </figure>
    
   # This research was part of the EU funded project <a href="https://cordis.europa.eu/project/id/742708">CAPaCITy</a>.
-  collapsed_text: Imperial College London is a leading technical university in London. To increase the efficiency of organic solar cells, research is conducted into the charge mobility transfer of semi-conductor materials.<br><br> During a three-month research project I worked on the implementation of a promising copolymer in a macroscopic Kinetic Monte-Carlo model. I have implemented the supplied molecular structure by means of my own Python program to the requirements of the simulation model.<br><br>During the project I was responsible for:<ul class="resume-item-list"><li>The time schedule of the project</li><li>Collaborating with researchers from multiple universities</li><li>Run simulations on a cluster computer network</li><li>Documenting and presenting the project</li></ul> The project was completed on time and graded <b>9.0/10</b>.
+  # collapsed_text: Imperial College London is a leading technical university in London. To increase the efficiency of organic solar cells, research is conducted into the charge mobility transfer of semi-conductor materials.<br><br> During a three-month research project I worked on the implementation of a promising copolymer in a macroscopic Kinetic Monte-Carlo model. I have implemented the supplied molecular structure by means of my own Python program to the requirements of the simulation model.<br><br>During the project I was responsible for:<ul class="resume-item-list"><li>The time schedule of the project</li><li>Collaborating with researchers from multiple universities</li><li>Run simulations on a cluster computer network</li><li>Documenting and presenting the project</li></ul> The project was completed on time and graded <b>9.0/10</b>.
 
 
 
@@ -71,7 +71,7 @@
   duration: Feb, 2020 &mdash; Apr, 2020
   collapse: True
   collapse_name: Activities as Teacher Assistant
-  summary: test #During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
+  summary: Grading assignments and giving feedback for the mastercourse 'Computational Materials Sciences I'. #During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
   collapsed_text: During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
 
 
@@ -81,7 +81,7 @@
   position: IT-support
   duration:  Nov, 2016 &mdash; July, 2018
   collapse: False
-  summary: First line IT-desk co-worker in a team. Setting-up of internal IT-procedures.<ul class="resume-item-list"><li>Ampelmann B.V. (May, 2018 &mdash; July, 2018)</li><li>Priva B.V. (Nov, 2016 &mdash; Apr, 2017)</li></ul>
+  summary: First line IT-desk co-worker in a team. Setting-up of internal IT-procedures.<ul class="resume-item-list"><li><a href="https://ampelmann.nl">Ampelmann B.V.</a> (May, 2018 &mdash; July, 2018)</li><li><a href="https://www.priva.com">Priva B.V.</a> (Nov, 2016 &mdash; Apr, 2017)</li></ul>
   
 # Director of Digital Stratgy
 #- company: Ampelmann B.V.
