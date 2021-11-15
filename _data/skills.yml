@@ -1,15 +1,25 @@
 # Skills
-# Organizational leadership
-- skill: Playing piano
-  description: I enjoy making music with friends and <a href="https://www.youtube.com/watch?v=pClZ-3bGslI">performing</a> with my coverband. Check out this <a href="https://www.youtube.com/watch?v=Axjqsx50doI">livestream</a> I took part in!
    
 # Communications strategy
-- skill: Programming
-  description: Python, C++, Git, Bash, Linux, Matlab, LaTeX, <a href="https://musescore.com/grbewoners">MuseScore</a>, VideoPad Video Editor, MS Office
+- skill: Programming languages
+  description: Python, C++, MATLAB
 
-# Digital content development and creation
+- skill: Applications and tools
+  description: Git, LaTeX, Anaconda, MS Visual Studio Code, QtCreator, VideoPad Video Editor
+
+- skill: Methods
+  description: Scrum, Object Oriented Programming, Data Driven Design
+
+
+- skill: Licenses
+  description: PADI Open Water Diver, ISTQB Foundation
+
 - skill: Fieldhockey
   description: Enthusiast of fieldhockey. I enjoy playing in <a href="https://dopie.nl/site/">Delft</a>, <a href="https://hcdelfshaven.nl/site/Default.asp">Rotterdam</a> and during my internship in <a href="https://imperialhockeyclub.wixsite.com/home">London</a>.
+
+- skill: Playing piano
+  description: I enjoy making music with friends and <a href="https://www.youtube.com/watch?v=pClZ-3bGslI">performing</a> with my coverband. Check out this <a href="https://www.youtube.com/watch?v=Axjqsx50doI">livestream</a> I took part in!
+
   
   
 
