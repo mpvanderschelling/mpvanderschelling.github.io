@@ -1,15 +1,6 @@
 # Jobs
 
 # VP of Global Communications
-- company: <a href="https://engineering.brown.edu/">Brown University</a>
-  position: Visiting Scholar
-  duration: Sep, 2023 &mdash; Feb, 2024
-  collapse: False
-  collapse_name:
-  summary: Engaged as a Visiting Scholar at Brown University, I collaborated with leading academics on cutting-edge research, expanding my expertise in computational mechanics and contributing to the university's educational program.
-  collapsed_text:
-
-# VP of Global Communications
 - company: <a href="https://www.tudelft.nl/en/ai/machina">Delft University of Technology</a>
   position: PhD Candidate
   duration: Feb, 2022 &mdash; Present
@@ -17,6 +8,15 @@
   collapse_name: Learning to Choose Optimizers
   summary: Material optimization guided by machine learning.
   collapsed_text: In the field of materials design, machine learning techniques have been used to develop data-driven models for optimizing material properties. The performance of the model can be sensitive to the choice of optimization algorithm, making optimizer selection a challenging task. In recent years, there has been a transition in optimization from hand-designed to learned features, with the learning to optimize (L2O) approach attempting to learn the optimization conditions itself. While many studies in the field of L2O have demonstrated good performance on a specific task distribution, they often suffer from poor generalization to other distributions.<br><br>In materials design, the availability of training data can be limited due to the expense of prototyping or detailed simulations. This can make it difficult to achieve convergence of the learned features, which may require large amounts of data. To address these issues, we propose a new approach called "Learning to Choose Optimizers" (L2CO). Our method allows a meta-learner to select from a range of static, well-established optimizers at test time. This enables the system to adapt to different task distributions and enhance generalization performance by switching to a different optimizer as needed. In this proof-of-concept study, we train our model offline on a diverse set of benchmark loss-functions and apply a range of gradient-based, population-based, and probabilistic model-based optimizers. We take inspiration from recommendation systems to identify the most appropriate optimizer for an unseen test problem, and in the online stage, the meta-learner is able to choose and switch optimizers during training.<br><br> The potential of this approach is demonstrated by comparing its performance to classical optimizers and established L2O-architectures on benchmark loss-functions and simple material design studies. The results suggest that L2CO has the potential to be a useful tool in the field of materials design, and we make our code and documentation available as open-source resources using the <a href="https://www.tudelft.nl/en/ai/machina">f3dasm framework</a>.
+
+# VP of Global Communications
+- company: <a href="https://engineering.brown.edu/">Brown University</a>
+  position: Visiting Scholar
+  duration: Sep, 2023 &mdash; Feb, 2024
+  collapse: False
+  collapse_name:
+  summary: Engaged as a Visiting Scholar at Brown University, I collaborated with leading academics on cutting-edge research, expanding my expertise in computational mechanics and contributing to the university's educational program.
+  collapsed_text:
 
 # VP of Global Communications
 - company: <a href="https://www.alten.nl">ALTEN Nederland</a>

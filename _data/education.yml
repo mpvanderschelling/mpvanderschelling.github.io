@@ -18,6 +18,7 @@
   collapse_name: Simulating the charge mobility of C<sub>16</sub>-IDTBT
   awards:
     - award: Simulating the charge mobility transfer of the copolymer C<sub>16</sub>-IDTBT with Kinetic Monte Carlo. <b>Graded 9.0/10</b>.
+    - award: Published in <b>PNAS</b> &mdash; <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2403879121">'Perpendicular crossing chains enable high mobility in a noncrystalline conjugated polymer'</a> (2024).
 
   collapsed_text: <i>To enhance the performance of <b>organic solar cells</b>, it is essential to investigate the microscopic features that affect the charge mobility in semiconducting materials. The co-polymer indacenodithiophene-benzothiadiazole (C<sub>16</sub>-IDTBT) has shown promising results for high mobility hole transfer. This research attempts to integrate the <b>microscopic dynamics</b> of this co-polymer onto the <b>macroscopic simulation program ToFeT</b>. The Time-of-Flight and field-effect transistor mobility measurements methods and their implementation in the simulation code are described. Subsequently, a <b>network of inter and intramolecular interactions</b> is built, and the morphology of C<sub>16</sub>-IDTBT is extracted from a molecular dynamics simulation in Gromacs. The resulting hole mobilities are compared with transient SCLC and FET experimental data from literature. The time-of-flight mobilities show similar behaviour with experimental transient SCLC mobilities.</i><br> 
   
@@ -36,6 +37,9 @@
    </figure>
    
    This research was part of the EU funded project <a href="https://cordis.europa.eu/project/id/742708">CAPaCITy</a>.
+   <br><br>
+   This work contributed to the following peer-reviewed publication:<br>
+   <ul class="resume-item-list"><li>J. F. Coker, S. Moro, A. S. Gertsen, X. Shi, D. Pearce, <b>M. P. van der Schelling</b>, Y. Xu, W. Zhang, J. W. Andreasen, C. R. Snyder, L. J. Richter, M. J. Bird, I. McCulloch, G. Costantini, J. M. Frost and J. Nelson, <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2403879121">'Perpendicular crossing chains enable high mobility in a noncrystalline conjugated polymer'</a>, <i>Proceedings of the National Academy of Sciences</i> <b>121</b>(37), e2403879121 (2024).</li></ul>
    
 - degree: BSc Molecular Science & Technology
   uni: Delft University of Technology
