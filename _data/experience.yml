@@ -7,7 +7,67 @@
   collapse: True
   collapse_name: Learning to Choose Optimizers
   summary: Material optimization guided by machine learning.
-  collapsed_text: In the field of materials design, machine learning techniques have been used to develop data-driven models for optimizing material properties. The performance of the model can be sensitive to the choice of optimization algorithm, making optimizer selection a challenging task. In recent years, there has been a transition in optimization from hand-designed to learned features, with the learning to optimize (L2O) approach attempting to learn the optimization conditions itself. While many studies in the field of L2O have demonstrated good performance on a specific task distribution, they often suffer from poor generalization to other distributions.<br><br>In materials design, the availability of training data can be limited due to the expense of prototyping or detailed simulations. This can make it difficult to achieve convergence of the learned features, which may require large amounts of data. To address these issues, we propose a new approach called "Learning to Choose Optimizers" (L2CO). Our method allows a meta-learner to select from a range of static, well-established optimizers at test time. This enables the system to adapt to different task distributions and enhance generalization performance by switching to a different optimizer as needed. In this proof-of-concept study, we train our model offline on a diverse set of benchmark loss-functions and apply a range of gradient-based, population-based, and probabilistic model-based optimizers. We take inspiration from recommendation systems to identify the most appropriate optimizer for an unseen test problem, and in the online stage, the meta-learner is able to choose and switch optimizers during training.<br><br> The potential of this approach is demonstrated by comparing its performance to classical optimizers and established L2O-architectures on benchmark loss-functions and simple material design studies. The results suggest that L2CO has the potential to be a useful tool in the field of materials design, and we make our code and documentation available as open-source resources using the <a href="https://www.tudelft.nl/en/ai/machina">f3dasm framework</a>.
+  collapsed_text: >-
+    Optimization plays a central role in data-driven design. However, choosing an appropriate
+    optimization algorithm for a specific task is often challenging, as it depends on the structure of
+    the optimization problem and practical limitations such as the computational budget. To tackle this
+    challenge, the field has seen a shift from manually designing optimizers toward using machine
+    learning methods that attempt to learn the optimization process itself. Despite significant
+    progress, existing approaches frequently exhibit limited generalization to new distributions and
+    typically require retraining to transfer their knowledge.<br><br>
+    We introduce a new approach called "Learning to Choose Optimizers" (L2CO). In our approach, a
+    meta-learner first selects an optimizer before any function evaluations&mdash;based solely on
+    available problem characteristics&mdash;and then reassesses that choice using a unified model that
+    jointly encodes problem context, optimizer identity, and the observed optimization trajectory. By
+    restricting selection to well-established algorithms, L2CO avoids the convergence issues of learned
+    update rules while retaining the adaptability of dynamic selection.<br><br>
+    In this work, we train our model offline on a collection of benchmark functions, employing a mixture
+    of gradient-based, population-based, and probabilistic model-based optimizers. We demonstrate the
+    effectiveness of our method by comparing its performance to classical optimizers on standard
+    benchmark problems and a neural net classification task. The empirical results indicate that L2CO is
+    a promising tool with improved generalization capabilities.
+    <figure>
+     <img src="images/l2co-overview.png" alt="Overview of the L2CO framework" class="centeringfull" itemprop="image">
+     <figcaption class="figcaption">Overview of the L2CO framework. A first decision selects an initial optimizer from the problem features alone; a second, trajectory-aware decision then fuses problem embeddings, optimizer embeddings and the observed trajectory to either confirm that choice or warm-start a switch to a more suitable optimizer.</figcaption>
+    </figure>
+    <br>
+    van der Schelling, M., Toshniwal, D., &amp; Bessa, M. A. <i>Learning to Choose Optimizers</i>.
+    IEEE Congress on Evolutionary Computation (CEC), 2026.
+  collapses:
+    - collapse_name: f3dasm &mdash; a Framework for Data-Driven Design and Analysis of Structures and Materials
+      collapsed_text: >-
+        Recent advances in computational resources have accelerated the development of inverse design
+        approaches for structures and materials. In particular, data-driven strategies that leverage
+        machine learning are increasingly shaping modern design workflows. However, constructing and
+        maintaining large material-response databases remains challenging in practice. Typical challenges
+        include data management, efficient parallel computing, and the integration of third-party
+        simulation or analysis software. Because many applied fields remain conservative in openly
+        sharing data and software, researchers often spend substantial time re-implementing standard
+        procedures, hindering reproducibility, benchmarking, and adherence to FAIR principles.<br><br>
+        In this work, we introduce <a href="https://github.com/bessagroup/f3dasm"><b>f3dasm</b></a>
+        (framework for data-driven design &amp; analysis of structures and materials), a general and
+        user-friendly open-source package that supports the full data-driven design pipeline. The
+        framework aims to streamline research workflows, facilitate the replication of existing studies,
+        and encourage the sharing of new experiments and results. <b>f3dasm</b> emphasizes flexibility,
+        interoperability, and modularity. In particular, it enables researchers to integrate different
+        software packages and computational tools across the key stages of a data-driven design loop:
+        (1) design of experiments; (2) data generation; (3) machine learning and surrogate modeling;
+        and (4) optimization.<br><br>
+        Since its first public release, <b>f3dasm</b> has been expanded to support MPI-based
+        parallelization in high-performance clusters, enabling efficient large-scale data generation and
+        simulation workloads. Furthermore, <b>f3dasm</b> adopts array-centric data structures that avoid
+        breaking the computational graph when interfacing with automatic differentiation libraries,
+        facilitating gradient-based learning and optimization. By lowering technical barriers and
+        promoting reproducibility, <b>f3dasm</b> contributes to democratizing data-driven design for
+        researchers and practitioners in structural and material engineering.
+        <figure>
+         <img src="images/f3dasm-data-driven-process.png" alt="The data-driven design process supported by f3dasm" class="centeringfull" itemprop="image">
+         <figcaption class="figcaption">The four stages of the data-driven design process covered by f3dasm: design of experiments, data generation, machine learning, and optimization.</figcaption>
+        </figure>
+        <br>
+        van der Schelling et al., (2024). <i>f3dasm: Framework for Data-Driven Design and Analysis of
+        Structures and Materials</i>. Journal of Open Source Software, 9(100), 6912,
+        <a href="https://doi.org/10.21105/joss.06912">https://doi.org/10.21105/joss.06912</a>
 
 # VP of Global Communications
 - company: <a href="https://engineering.brown.edu/">Brown University</a>
@@ -15,7 +75,7 @@
   duration: Sep, 2023 &mdash; Feb, 2024
   collapse: False
   collapse_name:
-  summary: Engaged as a Visiting Scholar at Brown University, I collaborated with leading academics on cutting-edge research, expanding my expertise in computational mechanics and contributing to the university's educational program.
+  summary: Engaged as a Visiting Scholar at Brown University, I collaborated with leading academics on cutting-edge research, expanding my expertise in computational mechanics and contributing to the university's educational program.<ul class="resume-item-list"><li>Contributed to the lectures, assignments and student projects of the <a href="https://github.com/bessagroup/3dasm_course">3dasm course</a>.</li></ul>
   collapsed_text:
 
 # VP of Global Communications
@@ -23,9 +83,9 @@
   position: Consultant Technology
   duration: May, 2021 &mdash; Feb, 2022
   collapse: True
-  collapse_name: Masterclass Scienctific Software Engineering
+  collapse_name: Masterclass Scientific Software Engineering
   summary: Scientific software engineer.
-  collapsed_text: The ALTEN Technical Software Masterclass is a 6 week course covering C++ and Object Oriented Programming. During this Masterclass an autonomous player is programmed for a client-server framework of the game Bomberman. The focus of the project is on learning good programming practices and knowledge about Git, software design and scrum are also implemented.<br><br> The following activities are covered during the masterclass:<ul class="resume-item-list"><li>Delivery of a document containing the various design choices and diagrams for Object Oriented Programming (UML)</li><li>Implementing an AI agent that can make intelligent choices in C++</li><li>Unit testing of the implemented code.</li><li>Presenting the finished project and the developed software.</li></ul> The end result and a process report are presented to ALTEN colleagues and a small tournament is held to demonstrate the Bomberman player.
+  collapsed_text: The ALTEN Technical Software Masterclass is a 6-week course covering C++ and Object-Oriented Programming. During this Masterclass, an autonomous player is programmed for a client-server framework of the game Bomberman. The focus of the project is on learning good programming practices; knowledge of Git, software design and Scrum is also applied.<br><br> The following activities are covered during the masterclass:<ul class="resume-item-list"><li>Delivery of a document containing the various design choices and diagrams for Object-Oriented Programming (UML)</li><li>Implementing an AI agent that can make intelligent choices in C++</li><li>Unit testing of the implemented code.</li><li>Presenting the finished project and the developed software.</li></ul> The end result and a process report are presented to ALTEN colleagues, and a small tournament is held to demonstrate the Bomberman player.
 
 # VP of Global Communications
 - company: <a href="https://nl.krohne.com/nl/">KROHNE New Technologies</a>
@@ -34,11 +94,11 @@
   collapse: True
   collapse_name: Portable clamp-on and Foodflux project
   summary: Consultant via ALTEN Nederland.
-  collapsed_text: KROHNE is a world-leading manufacturer and supplier of solutions in industrial process instrumentation. The portable clamp-on project is a detachable flowmeter which is supported with an Android application in order to send and display information from the flowsensor.<br><br>I fulfilled the role as a test engineer for the Android application and have conducted the following activities:<ul class="resume-item-list"><li>Performing manual integration testing</li><li>Developing automatic test scripts with Xamarin UITest in C#</li><li>Using an in-house test suite application to conduct data verification of the KROHNE flowmeter in JavaScript</li><li>Generating test reports and managing the communication between the development team</li></ul>In parallel, I worked on the development of power profiling tests for the hygienic flowsensor Foodflux. Within this project, I have worked on the following activities:<ul class="resume-item-list"><li>Developing automatic power profiling tests in JavaScript</li><li>Developing data analysis scripts in Python 3</li><li>Maintaining Arduino C++ code for a servo potentiometer</li></ul>
+  collapsed_text: KROHNE is a world-leading manufacturer and supplier of solutions in industrial process instrumentation. The portable clamp-on project is a detachable flowmeter which is supported with an Android application in order to send and display information from the flow sensor.<br><br>I fulfilled the role as a test engineer for the Android application and have conducted the following activities:<ul class="resume-item-list"><li>Performing manual integration testing</li><li>Developing automatic test scripts with Xamarin UITest in C#</li><li>Using an in-house test suite application to conduct data verification of the KROHNE flowmeter in JavaScript</li><li>Generating test reports and managing the communication within the development team</li></ul>In parallel, I worked on the development of power profiling tests for the hygienic flow sensor Foodflux. Within this project, I have worked on the following activities:<ul class="resume-item-list"><li>Developing automatic power profiling tests in JavaScript</li><li>Developing data analysis scripts in Python 3</li><li>Maintaining Arduino C++ code for a servo potentiometer</li></ul>
 
 # VP of Global Communications
 - company: <a href="http://www.npsp.nl">NPSP B.V.</a>
-  position: Graduation student
+  position: MSc thesis student
   duration: Mar, 2020 &mdash; Mar, 2021
   collapse: True
   collapse_name: A data-driven heuristic decision strategy for data-scarce optimization with an application towards bio-based composites
@@ -50,7 +110,7 @@
   # </figure>
   # <br>
   # The Bayesian optimization model for bio-based composite research was developed in collaboration with NPSP B.V. The model is open-source and can be found <a href="https://github.com/mpvanderschelling/BMC-optimizer">here</a>.<br><br>
-  collapsed_text: NPSP B.V. is a research and development company within the field of bio-based composites. New circular materials are being produced by using materials from waste streams.<br><br> During this project I developed a Bayesian optimization model to enhance their research. This application uses the mechanical properties of different composite recipes to predict which material ratios need to be adjusted in order to produce better natural composites.<br><br> Besides this specific application of algorithmic optimization, I delved deeper into meta-heuristics and meta-learning. Based on the loss-landscape of general optimization problems, I have developed a unique reinforcement-learning system in which the most competent algorithm is chosen for the right problem.<br><br> For this I satisfied the following activities:<ul class="resume-item-list"><li>Translated researchers' questions into software requirements</li><li>Carried out a thorough literature review and academic reporting</li><li>Simulations performed on a cluster computer network</li><li>Gave multiple oral presentations; both for the client and the employer</li><li>Concise documentation supplied for the application</li></ul>The application and study were very well received and the project received an excellent rating of <b>9.5/10</b>.
+  collapsed_text: NPSP B.V. is a research and development company within the field of bio-based composites. New circular materials are being produced by using materials from waste streams.<br><br> During this project I developed a Bayesian optimization model to enhance its research. This application uses the mechanical properties of different composite recipes to predict which material ratios need to be adjusted in order to produce better natural composites.<br><br> Besides this specific application of algorithmic optimization, I delved deeper into meta-heuristics and meta-learning. Based on the loss-landscape of general optimization problems, I have developed a unique reinforcement-learning system in which the most competent algorithm is chosen for each problem.<br><br> For this I carried out the following activities:<ul class="resume-item-list"><li>Translated researchers' questions into software requirements</li><li>Carried out a thorough literature review and academic reporting</li><li>Ran simulations on a cluster computer network</li><li>Gave multiple oral presentations; both for the client and the employer</li><li>Supplied concise documentation for the application</li></ul>The application and study were very well received and the project received an excellent rating of <b>9.5/10</b>.
 
 # - company: Imperial College London
 #   position: Guest researcher
@@ -58,44 +118,44 @@
 #   collapse: True
 #   collapse_name: Simulating the charge mobility of C<sub>16</sub>-IDTBT
 #   summary: test
-#collapsed_text: <i>To enhance the performance of <b>organic solar cells</b>, it is essential to investigate the microscopic features that affect the charge mobility in semiconducting materials. The co-polymer indacenodithiophene-benzothiadiazole (C<sub>16</sub>-IDTBT) has shown promising results for high mobility hole transfer. This research attempts to integrate the <b>microscopic dynamics</b> of this co-polymer onto the <b>macroscopic simulation program ToFeT</b>. The Time-of-Flight and field-effect transistor mobility measurements methods and their implementation in the simulation code are described. Subsequently, a <b>network of inter and intramolecular interactions</b> is built, and the morphology of C<sub>16</sub>-IDTBT is extracted from a molecular dynamics simulation in Gromacs. The resulting hole mobilities are compared with transient SCLC and FET experimental data from literature. The time-of-flight mobilities show similar behaviour with experimental transient SCLC mobilities.</i><br>
+#collapsed_text: <i>To enhance the performance of <b>organic solar cells</b>, it is essential to investigate the microscopic features that affect the charge mobility in semiconducting materials. The co-polymer indacenodithiophene-benzothiadiazole (C<sub>16</sub>-IDTBT) has shown promising results for high mobility hole transfer. This research attempts to integrate the <b>microscopic dynamics</b> of this co-polymer onto the <b>macroscopic simulation program ToFeT</b>. The Time-of-Flight and field-effect transistor mobility measurement methods and their implementation in the simulation code are described. Subsequently, a <b>network of inter- and intramolecular interactions</b> is built, and the morphology of C<sub>16</sub>-IDTBT is extracted from a molecular dynamics simulation in Gromacs. The resulting hole mobilities are compared with transient SCLC and FET experimental data from the literature. The time-of-flight mobilities show similar behavior to experimental transient SCLC mobilities.</i><br>
 
 # <figure>
 #  <img src="images/snapshotidtbt.png" alt="Snapshot of C16-IDTBT" class="centering" itemprop="image">
 #  <figcaption class="figcaption">Molecular structure of C<sub>16</sub>-IDTBT.</figcaption>
 # </figure>
 #
-# From this 3 month internship, I have learned to work in an interdisciplinairy team. With limited prior knowledge of C, I managed to understand and use a complicated Kinetic Monte Carlo program and adapt it to my own research. Furthermore, I worked with <b>Python, bash and a cluster computernetwork</b>. The report was graded by Delft University of Technology and received a mark of <b>9.0/10</b>.<br>
+# From this three-month internship, I have learned to work in an interdisciplinary team. With limited prior knowledge of C, I managed to understand and use a complicated Kinetic Monte Carlo program and adapt it to my own research. Furthermore, I worked with <b>Python, bash and a cluster computer network</b>. The report was graded by Delft University of Technology and received a mark of <b>9.0/10</b>.<br>
 #
 # <figure>
 #  <img src="images/flowchart.png" alt="Flowchart of the research project" width=100% itemprop="image">
 #  <figcaption class="figcaption">Flowchart of the external research project.</figcaption>
 # </figure>
 
-# This research was part of the EU funded project <a href="https://cordis.europa.eu/project/id/742708">CAPaCITy</a>.
+# This research was part of the EU-funded project <a href="https://cordis.europa.eu/project/id/742708">CAPaCITy</a>.
 # collapsed_text: Imperial College London is a leading technical university in London. To increase the efficiency of organic solar cells, research is conducted into the charge mobility transfer of semi-conductor materials.<br><br> During a three-month research project I worked on the implementation of a promising copolymer in a macroscopic Kinetic Monte-Carlo model. I have implemented the supplied molecular structure by means of my own Python program to the requirements of the simulation model.<br><br>During the project I was responsible for:<ul class="resume-item-list"><li>The time schedule of the project</li><li>Collaborating with researchers from multiple universities</li><li>Run simulations on a cluster computer network</li><li>Documenting and presenting the project</li></ul> The project was completed on time and graded <b>9.0/10</b>.
 
 # VP of Global Communications
 - company: Delft University of Technology
-  position: Teacher Assistant Computational Materials Science
+  position: Teaching Assistant Computational Materials Science
   duration: Feb, 2020 &mdash; Apr, 2020
   collapse: True
-  collapse_name: Activities as Teacher Assistant
-  summary: Grading assignments and giving feedback for the mastercourse <a href="https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=46948">'Computational Materials Sciences I'</a>. #During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
-  collapsed_text: During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teacher assistant and during the course I checked the assignments of 80 students and provided feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the code of the first-year students and give feedback in both MATLAB and Python</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed within time. At the end of this course, the students considered my work to be very helpful.
+  collapse_name: Activities as Teaching Assistant
+  summary: Grading assignments and giving feedback for the master's course <a href="https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=46948">'Computational Materials Science I'</a>. #During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teaching assistant, checking the assignments of 80 students and providing feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the first-year students' code in both MATLAB and Python and give feedback</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed on time. At the end of this course, the students considered my work to be very helpful.
+  collapsed_text: During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teaching assistant, checking the assignments of 80 students and providing feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the first-year students' code in both MATLAB and Python and give feedback</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed on time. At the end of this course, the students considered my work to be very helpful.
 
 # OGD
 - company: <a href="https://www.ogd.nl/">OGD ict-diensten</a>
   position: IT-support
   duration: Nov, 2016 &mdash; July, 2018
   collapse: False
-  summary: First line IT-desk co-worker in a team. Setting-up of internal IT-procedures.<ul class="resume-item-list"><li><a href="https://ampelmann.nl">Ampelmann B.V.</a> (May, 2018 &mdash; July, 2018)</li><li><a href="https://www.priva.com">Priva B.V.</a> (Nov, 2016 &mdash; Apr, 2017)</li></ul>
+  summary: First-line IT-desk co-worker in a team. Setting-up of internal IT-procedures.<ul class="resume-item-list"><li><a href="https://ampelmann.nl">Ampelmann B.V.</a> (May, 2018 &mdash; July, 2018)</li><li><a href="https://www.priva.com">Priva B.V.</a> (Nov, 2016 &mdash; Apr, 2017)</li></ul>
 # Director of Digital Stratgy
 #- company: Ampelmann B.V.
 #  position: Jr. IT-support
 #  duration:  May, 2018 &mdash; July, 2018
 #  collapse: False
-#  summary: First line IT-desk co-worker in a team. Setting-up of internal IT-procedures.
+#  summary: First-line IT-desk co-worker in a team. Setting-up of internal IT-procedures.
 
 # Communications Coordinator
 #- company: Priva B.V.
@@ -111,7 +171,7 @@
 #  collapse: True
 #  collapse_name: Awesome impression of the shows we did!
 #  summary:
-#    - Studentcoverband with 30 shows per year. Manager of a small business since September 2018.
+#    - Student coverband with 30 shows per year. Manager of a small business since September 2018.
 
 #  collapsed_text:
 #

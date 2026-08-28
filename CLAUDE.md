@@ -84,6 +84,16 @@ Experience / education / associations entries can hide a long body behind a togg
   collapsed_text: <the long HTML body>
 ```
 
+An entry can carry **more than one** dropdown: add a `collapses:` list of
+`collapse_name` / `collapsed_text` pairs, which the experience loop renders *after* the single
+`collapse:` block. (The Delft PhD entry uses both: "Learning to Choose Optimizers" via `collapse:`,
+f3dasm via `collapses:`.) Only the Experience section has this loop &mdash; education and
+associations still take one dropdown each.
+
+Long bodies with a `:` in them (a paper title, an enumeration) can't be plain scalars &mdash; use a
+folded block scalar (`>-`) as the f3dasm entry does. Keep every line at the same indentation or the
+extra-indented ones keep their newlines.
+
 **Gotcha:** `.content` in `_sass/_resume.scss` sets *both* `display: none` and `max-height: 0`,
 so `_layouts/resume.html` ends with **two near-identical `<script>` blocks** — one toggling
 `display`, one toggling `maxHeight`. They look like a copy-paste accident but both are load-bearing.

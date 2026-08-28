@@ -43,6 +43,12 @@
   @include transition(all .2s ease);
 }
 
+/* Keep stacked collapsibles (a job with more than one dropdown) from touching */
+.collapsible + .collapsible,
+.content + .collapsible {
+  margin-top: 4px;
+}
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: #333;
