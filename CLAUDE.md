@@ -43,7 +43,7 @@ Never flip one of those flags to `true` without first replacing the file's dummy
 ## Writing entries
 
 Each data file is a YAML list. Field names differ per section — check the corresponding
-`{% for %}` loop in `_layouts/resume.html` before inventing a key; unknown keys render as
+`for` loop in `_layouts/resume.html` before inventing a key; unknown keys render as
 nothing, silently.
 
 **Raw HTML inside YAML strings is the norm here**, and Liquid outputs it unescaped. Existing
@@ -109,7 +109,17 @@ Deleting either leaves the collapsibles permanently closed.
 ## Building
 
 **There is no Ruby, Bundler, or Jekyll in this container** — `bundle exec jekyll serve` cannot
-be run here. Verify changes by reading the Liquid, not by building. If the user wants a local
+be run here. Verify changes by reading the Liquid, not by building.
+
+**This file is `exclude`d in `_config.yml`, and must stay that way.** Jekyll treats every
+root-level `.md` as a page and runs **Liquid over it before Markdown** — so a `{`+`%` tag in
+this file, *even inside backticks or a fenced code block*, is parsed as a real tag and fails
+the GitHub Actions build with `Liquid syntax error ... in CLAUDE.md`. Two rules follow:
+
+1. Don't remove `CLAUDE.md` from the `exclude` list (and note that setting `exclude` at all
+   *replaces* Jekyll's defaults, which is why they're restated there).
+2. Still avoid writing literal Liquid tags here — describe them ("the `for` loop") instead.
+   Belt and braces: the exclude keeps it out of the build, this keeps it harmless if that lapses. If the user wants a local
 preview they need to run it on their own machine:
 
 ```
@@ -118,6 +128,9 @@ bundle exec jekyll serve   # → localhost:4000
 ```
 
 `.bundle/config` pins `BUNDLE_PATH` to `_vendor/bundle` (gitignored, along with `_site`).
-`Gemfile.lock` pins `github-pages 204` → **Jekyll 3.8.5**, so Jekyll 4-only Liquid features
-are unavailable. Note that GitHub Pages builds with its own current version regardless of
-this lockfile. An `update-deps` branch exists on the remote.
+`Gemfile.lock` pins `github-pages 204` → Jekyll 3.8.5, but **CI ignores it**: the
+`actions/jekyll-build-pages` container builds with its own `github-pages 232` / **Jekyll 3.10.0**
+and logs two harmless warnings every run — a long "The following gems are missing" list and
+"the github-pages gem can't satisfy your Gemfile's dependencies". Those are noise, not build
+failures; look past them to the actual error. Either way it's Jekyll 3, so Jekyll 4-only Liquid
+is unavailable. An `update-deps` branch exists on the remote if the lockfile is ever refreshed.

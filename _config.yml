@@ -8,6 +8,24 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# Repo tooling, not site content. Without this, Jekyll renders these as pages and
+# runs Liquid over them -- a stray Liquid tag in a note file then breaks the whole build.
+# NOTE: setting `exclude` REPLACES Jekyll's default list rather than adding to it,
+# so the defaults (plus CNAME) are restated here.
+exclude:
+  - .jekyll-cache/
+  - .sass-cache/
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - gemfiles
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - CLAUDE.md
+
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Martin van der Schelling"
