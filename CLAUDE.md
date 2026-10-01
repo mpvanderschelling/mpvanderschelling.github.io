@@ -3,7 +3,7 @@
 ## What this is
 
 Martin van der Schelling's personal résumé/CV site — a single-page Jekyll site published by
-GitHub Pages at **mpvanderschelling.nl** (`CNAME`) / `mpvanderschelling.github.io`.
+GitHub Pages at **mpvanderschelling.github.io** (no custom domain — there is deliberately no `CNAME` file).
 
 It is a fork of [jglovier/resume-template](https://github.com/jglovier/resume-template)
 (still wired up as the `upstream` remote). `README.md` is the **upstream template's** README,
