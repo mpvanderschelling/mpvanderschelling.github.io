@@ -6,7 +6,20 @@
   duration: Feb, 2022 &mdash; Present
   collapse: True
   collapse_name: Learning to Choose Optimizers
-  summary: Material optimization guided by machine learning.
+  summary: >-
+    PhD in the Bessa group on machine-learning-guided optimization for materials design.
+    <ul class="resume-item-list">
+    <li><b>f3dasm:</b> Lead developer of <a href="https://github.com/bessagroup/f3dasm">f3dasm</a>, an
+    open-source Python framework for data-driven design of materials and structures with 120+ GitHub
+    stars, 3,000+ monthly PyPI downloads and a JOSS publication, by designing a modular API that links
+    design of experiments, simulation, machine learning and optimization, with MPI-parallel data
+    generation on HPC clusters.</li>
+    <li><b>Learning to Choose Optimizers:</b> Developing L2CO, a meta-learned optimizer-selection
+    framework that matches or outperforms the single best optimizer on standard black-box benchmarks
+    and was accepted at IEEE CEC 2026, by training a model that picks an optimizer from problem
+    features alone and reassesses that choice during the run, now extended to reinforcement-learning
+    policies that switch optimizers multiple times.</li>
+    </ul>
   collapsed_text: >-
     Optimization plays a central role in data-driven design. However, choosing an appropriate
     optimization algorithm for a specific task is often challenging, as it depends on the structure of
@@ -75,26 +88,33 @@
   duration: Sep, 2023 &mdash; Feb, 2024
   collapse: False
   collapse_name:
-  summary: Engaged as a Visiting Scholar at Brown University, I collaborated with leading academics on cutting-edge research, expanding my expertise in computational mechanics and contributing to the university's educational program.<ul class="resume-item-list"><li>Contributed to the lectures, assignments and student projects of the <a href="https://github.com/bessagroup/3dasm_course">3dasm course</a>.</li></ul>
+  summary: >-
+    Taught probabilistic machine learning to 30 graduate students in Brown's <i>Data-Driven Design
+    &amp; Analysis of Structures and Materials</i> course
+    (<a href="https://github.com/bessagroup/3dasm_course">3dasm</a>), giving two guest lectures and
+    supervising final projects, by creating homework assignments, project exercises and lecture
+    notebooks.
   collapsed_text:
 
 # VP of Global Communications
 - company: <a href="https://www.alten.nl">ALTEN Nederland</a>
   position: Consultant Technology
   duration: May, 2021 &mdash; Feb, 2022
-  collapse: True
-  collapse_name: Masterclass Scientific Software Engineering
-  summary: Scientific software engineer.
-  collapsed_text: The ALTEN Technical Software Masterclass is a 6-week course covering C++ and Object-Oriented Programming. During this Masterclass, an autonomous player is programmed for a client-server framework of the game Bomberman. The focus of the project is on learning good programming practices; knowledge of Git, software design and Scrum is also applied.<br><br> The following activities are covered during the masterclass:<ul class="resume-item-list"><li>Delivery of a document containing the various design choices and diagrams for Object-Oriented Programming (UML)</li><li>Implementing an AI agent that can make intelligent choices in C++</li><li>Unit testing of the implemented code.</li><li>Presenting the finished project and the developed software.</li></ul> The end result and a process report are presented to ALTEN colleagues, and a small tournament is held to demonstrate the Bomberman player.
-
-# VP of Global Communications
-- company: <a href="https://nl.krohne.com/nl/">KROHNE New Technologies</a>
-  position: Test engineer
-  duration: July, 2021 &mdash; Dec, 2021
-  collapse: True
-  collapse_name: Portable clamp-on and Foodflux project
-  summary: Consultant via ALTEN Nederland.
-  collapsed_text: KROHNE is a world-leading manufacturer and supplier of solutions in industrial process instrumentation. The portable clamp-on project is a detachable flowmeter which is supported with an Android application in order to send and display information from the flow sensor.<br><br>I fulfilled the role as a test engineer for the Android application and have conducted the following activities:<ul class="resume-item-list"><li>Performing manual integration testing</li><li>Developing automatic test scripts with Xamarin UITest in C#</li><li>Using an in-house test suite application to conduct data verification of the KROHNE flowmeter in JavaScript</li><li>Generating test reports and managing the communication within the development team</li></ul>In parallel, I worked on the development of power profiling tests for the hygienic flow sensor Foodflux. Within this project, I have worked on the following activities:<ul class="resume-item-list"><li>Developing automatic power profiling tests in JavaScript</li><li>Developing data analysis scripts in Python 3</li><li>Maintaining Arduino C++ code for a servo potentiometer</li></ul>
+  collapse: False
+  summary: >-
+    Consultant Technology at ALTEN Nederland, placed at
+    <a href="https://nl.krohne.com/nl/">KROHNE New Technologies</a>.
+    <ul class="resume-item-list">
+    <li><b>Masterclass:</b> Earned the ISTQB Foundation certificate and completed ALTEN's six-week C++
+    software masterclass by building an autonomous Bomberman agent with object-oriented design, UML
+    and unit tests.</li>
+    <li><b>Portable clamp-on flowmeter:</b> Automated testing of KROHNE's companion Android app by
+    writing Xamarin UITest suites in C# and JavaScript scripts that verify the flowmeter's sensor
+    data, and reported the results to the development team.</li>
+    <li><b>Foodflux:</b> Built automated power-profiling tests for KROHNE's hygienic Foodflux flow
+    sensor by scripting the measurements in JavaScript, analyzing them in Python and maintaining the
+    Arduino C++ control of a servo potentiometer.</li>
+    </ul>
 
 # VP of Global Communications
 - company: <a href="http://www.npsp.nl">NPSP B.V.</a>
@@ -102,7 +122,11 @@
   duration: Mar, 2020 &mdash; Mar, 2021
   collapse: True
   collapse_name: A data-driven heuristic decision strategy for data-scarce optimization with an application towards bio-based composites
-  summary:
+  summary: >-
+    Designed bio-based composite recipes with improved mechanical properties over NPSP's existing
+    bulk-moulding compounds, by developing an open-source Bayesian-optimization tool
+    (<a href="https://github.com/mpvanderschelling/BMC-optimizer">BMC-optimizer</a>) that suggests
+    new natural-fiber weight ratios from measured recipe performance.
   #collapsed_text: <i><b>Algorithmic optimization</b> is a viable tool for solving complex materials engineering issues. In this study, a <b>data-scarce Bayesian optimization model</b> was developed to research the composition of <b>bio-based composites</b>. The proof-of-concept program adjusts the natural materials'' weight ratios to optimize towards user-defined mechanical properties. Preliminary results show that the bio-composites proposed by the program had improved properties compared to existing bulk-moulding compounds.<br><br>  However, the algorithm choice is often arbitrary or based on anecdotal evidence. In parallel, this thesis proposed a <b>data-driven framework for general data-scarce optimization</b> problems to adapt the meta-heuristic during optimization. Guided by the ''No Free Lunch'' theorem, we verified that the effectiveness over a selection of algorithms is dependent on <b>problem-specific features</b> and convergence. This effectiveness was captured in a unique identifier metric by optimizing a generated training set of optimization problems. The average solution quality was improved by combining several meta-heuristics in series, based on these problem-specifics. During the optimization of problems in the testing set, the same unique identifier was constructed at predefined stages in the optimization process. Subsequently, the problem was classified, and the meta-heuristic was adapted to the best-performing algorithm based on similar training samples. <br><br>Experiments with various classifiers and a different number of predefined assessment stages were performed. Results show that the data-driven heuristic decision strategy <b>outperformed the individual optimizers on the testing set</b>. Despite the use of binarization techniques, the classification accuracy was heavily influenced by the imbalanced training set. In terms of computational resources, the various adaptions of the data-driven heuristic strategy are <b>2.5 times faster in runtime</b> compared to the best-performing meta-heuristic Bayesian Optimization. Lastly, the framework was benchmarked against the ''learning to optimize'' study and shows excellent performance on the logistic regression problem compared to the autonomous optimizer. In conclusion, it has been shown that even with the limited information of black-box optimization problems, data-driven optimization effectively improves the current standard of materials engineering processes.</i><br>
   # <figure>
   #  <img src="images/heuristicstrategy.png" alt="Heuristic strategy" class="centering" itemprop="image">
@@ -110,7 +134,7 @@
   # </figure>
   # <br>
   # The Bayesian optimization model for bio-based composite research was developed in collaboration with NPSP B.V. The model is open-source and can be found <a href="https://github.com/mpvanderschelling/BMC-optimizer">here</a>.<br><br>
-  collapsed_text: NPSP B.V. is a research and development company within the field of bio-based composites. New circular materials are being produced by using materials from waste streams.<br><br> During this project I developed a Bayesian optimization model to enhance its research. This application uses the mechanical properties of different composite recipes to predict which material ratios need to be adjusted in order to produce better natural composites.<br><br> Besides this specific application of algorithmic optimization, I delved deeper into meta-heuristics and meta-learning. Based on the loss-landscape of general optimization problems, I have developed a unique reinforcement-learning system in which the most competent algorithm is chosen for each problem.<br><br> For this I carried out the following activities:<ul class="resume-item-list"><li>Translated researchers' questions into software requirements</li><li>Carried out a thorough literature review and academic reporting</li><li>Ran simulations on a cluster computer network</li><li>Gave multiple oral presentations; both for the client and the employer</li><li>Supplied concise documentation for the application</li></ul>The application and study were very well received and the project received an excellent rating of <b>9.5/10</b>.
+  collapsed_text: NPSP B.V. is a research and development company within the field of bio-based composites. New circular materials are being produced by using materials from waste streams.<br><br> Besides the Bayesian-optimization tool, I delved deeper into meta-heuristics and meta-learning. Based on the loss-landscape of general optimization problems, I have developed a unique reinforcement-learning system in which the most competent algorithm is chosen for each problem.
 
 # - company: Imperial College London
 #   position: Guest researcher
@@ -139,17 +163,51 @@
 - company: Delft University of Technology
   position: Teaching Assistant Computational Materials Science
   duration: Feb, 2020 &mdash; Apr, 2020
+  collapse: False
+  summary: >-
+    Assessed the weekly coding assignments of 80 master's students in
+    <a href="https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=46948">'Computational
+    Materials Science I'</a> on time, by reviewing their MATLAB and Python code with written feedback
+    and publishing worked solutions as Jupyter notebooks.
+
+# VP of Global Communications
+- company: <a href="http://www.deklittenband.nl">V.O.F. De Klittenband</a>
+  position: Manager &amp; keyboard player
+  duration: Sep, 2018 &mdash; Present
   collapse: True
-  collapse_name: Activities as Teaching Assistant
-  summary: Grading assignments and giving feedback for the master's course <a href="https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=46948">'Computational Materials Science I'</a>. #During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teaching assistant, checking the assignments of 80 students and providing feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the first-year students' code in both MATLAB and Python and give feedback</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed on time. At the end of this course, the students considered my work to be very helpful.
-  collapsed_text: During the master's program 'Materials Science & Engineering', students are taught material simulation and modeling techniques within the course 'Computational Materials Science'. For this course I held the position of teaching assistant, checking the assignments of 80 students and providing feedback.<br><br> My activities within this position were:<ul class="resume-item-list"><li>Review the first-year students' code in both MATLAB and Python and give feedback</li><li>Document the worked-out solutions of the weekly assignments by means of Jupyter Notebook</li><li>Document the students' grades</li></ul>All student assignments have been assessed on time. At the end of this course, the students considered my work to be very helpful.
+  collapse_name: Awesome impression of the shows we did!
+  summary: >-
+    Run a student cover band as a small business with 30+ shows per year, alongside playing keyboard.
+    <ul class="resume-item-list">
+    <li><b>Clients &amp; crew:</b> Secure and manage the band's bookings by negotiating fees and terms
+    with clients and aligning the technical crew on sound, lighting and stage requirements.</li>
+    <li><b>Logistics:</b> Organize every performance end-to-end by planning transport, equipment, crew
+    and band availability for each show.</li>
+    <li><b>Finance &amp; administration:</b> Automated the band's quotations, contracts and invoicing
+    by building custom Python software that generates all client documents from a single gig record
+    and prices each show from musician, equipment and travel costs, and synced bookings from the CRM
+    into a shared band calendar.</li>
+    </ul>
+  collapsed_text: >-
+    <figure>
+     <img src="images/delft.jpg" alt="Show at Openingsfeest Delft" width=100% class="centeringfull" itemprop="image">
+     <figcaption class="figcaption"></figcaption>
+    </figure>
+    <div id="header">
+    <figure>
+     <img src="images/rotterdam.jpg" alt="Show at Eurekaweek Rotterdam" width=100% class="centeringfull" itemprop="image">
+    </figure>
+    </div>
+    <figure>
+     <img src="images/sparkulars.jpeg" alt="Show at lustrum Virgiel" width=100% class="centeringfull" itemprop="image">
+    </figure>
 
 # OGD
 - company: <a href="https://www.ogd.nl/">OGD ict-diensten</a>
   position: IT-support
   duration: Nov, 2016 &mdash; July, 2018
   collapse: False
-  summary: First-line IT-desk co-worker in a team. Setting-up of internal IT-procedures.<ul class="resume-item-list"><li><a href="https://ampelmann.nl">Ampelmann B.V.</a> (May, 2018 &mdash; July, 2018)</li><li><a href="https://www.priva.com">Priva B.V.</a> (Nov, 2016 &mdash; Apr, 2017)</li></ul>
+  summary: Provided first-line IT support to employees at Priva and Ampelmann during the BSc, and improved internal IT procedures by working with Active Directory, TOPdesk, Windows 10 and Office 365.<ul class="resume-item-list"><li><a href="https://ampelmann.nl">Ampelmann B.V.</a> (May, 2018 &mdash; July, 2018)</li><li><a href="https://www.priva.com">Priva B.V.</a> (Nov, 2016 &mdash; Apr, 2017)</li></ul>
 # Director of Digital Stratgy
 #- company: Ampelmann B.V.
 #  position: Jr. IT-support
@@ -163,30 +221,3 @@
 #  duration:   Nov, 2016  &mdash; Apr, 2017
 #  collapse: False
 #  summary: First-line IT helpdesk employee in a team. Analyzing and improving internal IT procedures. Worked with Active Directory, TOPdesk, Windows 10 and Office 365.
-
-# VP of Global Communications
-#- company:  <a href="http://www.deklittenband.nl">V.O.F. De Klittenband</a>
-#  position: Keyboard player & manager
-#  duration: Feb, 2015 &mdash; Present
-#  collapse: True
-#  collapse_name: Awesome impression of the shows we did!
-#  summary:
-#    - Student coverband with 30 shows per year. Manager of a small business since September 2018.
-
-#  collapsed_text:
-#
-#    <figure>
-#     <img src="images/delft.jpg" alt="Show at Openingsfeest Delft" width=100% class="centeringfull" itemprop="image">
-#     <figcaption class="figcaption"></figcaption>
-#    </figure>
-
-#    <div id="header">
-#    <figure>
-#     <img src="images/rotterdam.jpg" alt="Show at Eurekaweek Rotterdam" width=100% class="centeringfull" itemprop="image">
-#    </figure>
-#    </div>
-
-#    <figure>
-#     <img src="images/sparkulars.jpeg" alt="Show at lustrum Virgiel" width=100% class="centeringfull" itemprop="image">
-#    </figure>
-

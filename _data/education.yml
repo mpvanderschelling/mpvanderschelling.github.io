@@ -5,8 +5,16 @@
   collapse: True
   collapse_name: More info on my self-defined specialization
   awards:
-    - award: Self-defined specialization &mdash; Plastics, sustainability and computational materials sciences
-    - award: MSc thesis &mdash; A data-driven heuristic decision strategy for data-scarce optimization with an application towards bio-based composites. <b>Graded 9.5/10</b>.
+    - award: >-
+        <b>MSc thesis:</b> Developed a data-driven strategy that switches between optimization
+        algorithms mid-run based on problem features, outperforming each individual optimizer on the
+        test set and running 2.5&times; faster than Bayesian optimization, by training classifiers on
+        the convergence behavior of a generated set of benchmark problems; graded <b>9.5/10</b>.
+    - award: >-
+        <b>Specialization:</b> Graduated with a GPA of <b>8.5/10</b> in a self-defined specialization in
+        plastics, sustainability and computational materials science, by combining courses in polymer
+        science, functional coatings, self-healing materials, clean-energy materials and computational
+        materials science.
   # summary: If you had any meaningful roles at college, feel free to write about them here
   
   collapsed_text: With a background in chemical engineering, I am interested in the world of polymers and soft matter. I took courses in '<b>Functional Coatings</b>' and '<b>Self-healing Materials</b>' to become an expert in incorporating chemistry in modern material science. In addition, the minor 'Sustainable Energy and Technology' and the MSc course '<b>Materials for Clean Energy Technology</b>' have taught me a lot about the world-wide drive of creating renewable energy and products. With my knowledge in chemical material sciences, I would like to be part of the global sustainability trend. Lastly, the course '<b>Polymer Science</b>' has taught me that unconventional materials such as polymers are complex to model. Because of that, the multiple courses on <b>Computational Materials Science</b> are an essential aspect to my specialization.
@@ -17,8 +25,16 @@
   collapse: True
   collapse_name: Simulating the charge mobility of C<sub>16</sub>-IDTBT
   awards:
-    - award: Simulating the charge mobility transfer of the copolymer C<sub>16</sub>-IDTBT with Kinetic Monte Carlo. <b>Graded 9.0/10</b>.
-    - award: Published in <b>PNAS</b> &mdash; <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2403879121">'Perpendicular crossing chains enable high mobility in a noncrystalline conjugated polymer'</a> (2024).
+    - award: >-
+        <b>Research:</b> Simulated hole mobility in the conjugated polymer C<sub>16</sub>-IDTBT,
+        reproducing the trend of experimental transient SCLC measurements, by writing a Python pipeline
+        that maps molecular-dynamics morphologies onto the Kinetic Monte Carlo code ToFeT; graded
+        <b>9.0/10</b>.
+    - award: >-
+        <b>Publication:</b> Co-authored the <b>PNAS</b> paper
+        <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2403879121">'Perpendicular crossing chains
+        enable high mobility in a noncrystalline conjugated polymer'</a> (2024), by contributing the
+        kinetic Monte Carlo charge-transport simulations of C<sub>16</sub>-IDTBT.
 
   collapsed_text: <i>To enhance the performance of <b>organic solar cells</b>, it is essential to investigate the microscopic features that affect the charge mobility in semiconducting materials. The co-polymer indacenodithiophene-benzothiadiazole (C<sub>16</sub>-IDTBT) has shown promising results for high mobility hole transfer. This research attempts to integrate the <b>microscopic dynamics</b> of this co-polymer onto the <b>macroscopic simulation program ToFeT</b>. The Time-of-Flight and field-effect transistor mobility measurement methods and their implementation in the simulation code are described. Subsequently, a <b>network of inter- and intramolecular interactions</b> is built, and the morphology of C<sub>16</sub>-IDTBT is extracted from a molecular dynamics simulation in Gromacs. The resulting hole mobilities are compared with transient SCLC and FET experimental data from the literature. The time-of-flight mobilities show similar behavior to experimental transient SCLC mobilities.</i><br> 
   
@@ -29,7 +45,7 @@
     <figcaption class="figcaption">Molecular structure of C<sub>16</sub>-IDTBT.</figcaption>
    </figure>
    
-   From this three-month internship, I have learned to work in an interdisciplinary team. With limited prior knowledge of C, I managed to understand and use a complicated Kinetic Monte Carlo program and adapt it to my own research. Furthermore, I worked with <b>Python, bash and a cluster computer network</b>. The report was graded by Delft University of Technology and received a mark of <b>9.0/10</b>.<br>
+   From this three-month internship, I have learned to work in an interdisciplinary team. With limited prior knowledge of C, I managed to understand and use a complicated Kinetic Monte Carlo program and adapt it to my own research. Furthermore, I worked with <b>Python, bash and a cluster computer network</b>.<br>
    
    <figure>
     <img src="images/flowchart.png" alt="Flowchart of the research project" width=100% itemprop="image">
@@ -47,8 +63,13 @@
   collapse: True
   collapse_name: Study of UiO-66 linkers' rotational dynamics
   awards:
-    - award: BSc thesis &mdash; Study of UiO-66 linkers' rotational dynamics
-    - award: Minor &mdash; Sustainable Energy & Technology
+    - award: >-
+        <b>BSc thesis:</b> Characterized the linker rotational dynamics of UiO-66 metal-organic
+        frameworks for molecular data storage, showing that UiO-66-NO<sub>2</sub> matches the
+        linker&ndash;framework interaction of MIL-53-NO<sub>2</sub>, by synthesizing and
+        characterizing the frameworks (PXRD, DRIFTS, TGA, N<sub>2</sub> adsorption) and measuring
+        them with broadband dielectric spectroscopy.
+    - award: Minor in Sustainable Energy &amp; Technology.
    # - award: Major &mdash; Chemical Technology
 
   collapsed_text: <i>Due to the ever-increasing demand for efficient data storage, innovative ways of <b>storing data on the molecular level</b> are being investigated. To store data on the molecular level, rotating linkers of the <b>UiO-66 metal-organic framework</b> (MOF) are possible candidates. Before we can control this rotation, the <b>rotational dynamics</b> of the 1,4-dicarboxylic linker are being researched. With the characterization techniques PXRD, DRIFTS, TGA and N<sub>2</sub>-adsorption, it was concluded that the structure and surface area are the same as those of reported materials. With broadband dielectric spectroscopy, the rotational dynamics of the metal-organic frameworks were examined. In addition, we compared UiO-66-NO<sub>2</sub> with another MOF with the same BDC linker, MIL-53-NO<sub>2</sub>, and it showed that the dielectric relaxation is around the same temperature. This suggests that the interaction of the linker and the framework is of equal magnitude. In conclusion, UiO-66-NO<sub>2</sub> has a similar interframework interaction to MIL-53-NO<sub>2</sub>. The large difference between relaxation temperatures for UiO-66-NH<sub>2</sub> and UiO-66-NO<sub>2</sub> may be explained by the <b>interactions between the cornerstone and the linker</b> which can hinder the rotation.</i><br>
