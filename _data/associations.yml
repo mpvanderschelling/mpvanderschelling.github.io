@@ -1,57 +1,40 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
-# VP of Global Communications
-- organization:  <a href="http://www.deklittenband.nl">V.O.F. De Klittenband</a>
-  role: Keyboard player & manager
-  year: Feb, 2015 &mdash; Present
-  collapse: True
-  collapse_name: Awesome impression of the shows we did!
-  summary: Student coverband with 30 shows per year. Manager of a small business since September 2018.
-
-  collapsed_text:
-   
-    <figure>
-     <img src="images/delft.jpg" alt="Show at Openingsfeest Delft" width=100% class="centeringfull" itemprop="image">
-     <figcaption class="figcaption"></figcaption>
-    </figure>
-    
-    <div id="header">
-    <figure>
-     <img src="images/rotterdam.jpg" alt="Show at Eurekaweek Rotterdam" width=100% class="centeringfull" itemprop="image">
-    </figure>  
-    </div>
-
-    <figure>
-     <img src="images/sparkulars.jpeg" alt="Show at lustrum Virgiel" width=100% class="centeringfull" itemprop="image">
-    </figure>  
+- organization: Faculty of Mechanical Engineering (ME), TU Delft
+  role: PhD council member
+  year: 2022 &mdash; 2024
+  summary: >-
+    Represented the PhD candidates of TU Delft's Faculty of Mechanical Engineering in the faculty PhD
+    council, by raising PhD concerns with the faculty and organizing the council's sports event for
+    the PhD community.
 
 - organization: Hockeyclub Delfshaven
   role: Competition Secretary
   year: 2021 &mdash; 2026
   url: https://www.hcdelfshaven.nl/
-  summary: Responsible for planning field hockey matches and appointing referees for the field hockey club HC Delfshaven.
+  summary: Ran the weekly match program of field hockey club HC Delfshaven, by scheduling all home matches and appointing a referee to each.
 
 - organization: Student Association 'Tubalkain'
   role: Board of Studies member
   year: 2018 &mdash; 2019
   # url: https://www.peta.org/
-  summary: Safeguards the educational quality of the master's program 'Materials Science & Engineering'.
+  summary: Represented the students of the MSc Materials Science &amp; Engineering in safeguarding its educational quality, by collecting course feedback from students and raising it with the program's teaching staff.
 
 - organization: K.S.V. Sanctus Virgilius
   role: Advisory Board <a href="http://www.virgieltheater.nl">Theatre Production</a>
   year: 2018 &mdash; 2021
   # url: http://campuspress.yale.edu/amnesty/
-  summary: Responsible for the long-term policies and assisting the current board.
+  summary: Guided three successive production boards on long-term policy, by advising them from my own experience of staging the 2016 musical.
   
   
 - organization: K.S.V. Sanctus Virgilius
   role: Board member <a href="http://www.virgieltheater.nl">Theatre Production</a>
   year: 2015 &mdash; 2016
   # url: http://www.virgieltheater.nl
-  summary: Organizing a student musical for 50 students and professionals in 'Theater de Veste'.
+  summary: Staged a student musical for 1,300 ticket-holders over three performances at Theater de Veste, Delft, with a cast and crew of 50 students and professionals, by managing the orchestra and the stage design.
 
 - organization: AEGEE-Delft
   role: Secretary Art & Culture committee
   year: 2014 &mdash; 2015
-  summary: Organizing various cultural activities, including the art and music festival <a href="https://collectieffestival.nl/en/">'t Collectief</a>.
+  summary: Organized cultural activities for AEGEE-Delft, including the art and music festival <a href="https://collectieffestival.nl/en/">'t Collectief</a>, by acting as committee secretary and coordinating the committee's planning and communication.
