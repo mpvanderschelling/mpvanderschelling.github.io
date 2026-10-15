@@ -29,7 +29,7 @@ exclude:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Martin van der Schelling"
-resume_title:                   "PhD Candidate at TU Delft (Materials Science & Engineering)"
+resume_title:                   "PhD Candidate at TU Delft (Materials Science)"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "martin@vanderschelling.com"
