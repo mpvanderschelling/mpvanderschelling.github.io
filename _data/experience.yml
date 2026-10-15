@@ -7,18 +7,19 @@
   collapse: True
   collapse_name: Learning to Choose Optimizers
   summary: >-
-    PhD in the Bessa group on machine-learning-guided optimization for materials design.
+    PhD candidate in the Bessa Group on machine-learning-guided optimization for materials design.
     <ul class="resume-item-list">
     <li><b>f3dasm:</b> Lead developer of <a href="https://github.com/bessagroup/f3dasm">f3dasm</a>, an
     open-source Python framework for data-driven design of materials and structures with 120+ GitHub
-    stars, 3,000+ monthly PyPI downloads and a JOSS publication, by designing a modular API that links
+    stars, 3,000+ monthly PyPI downloads and a
+    <a href="https://doi.org/10.21105/joss.06912">JOSS publication</a>, by designing a modular API that links
     design of experiments, simulation, machine learning and optimization, with MPI-parallel data
     generation on HPC clusters.</li>
     <li><b>Learning to Choose Optimizers:</b> Developing L2CO, a meta-learned optimizer-selection
     framework that matches or outperforms the single best optimizer on standard black-box benchmarks
     and was accepted at IEEE CEC 2026, by training a model that picks an optimizer from problem
-    features alone and reassesses that choice during the run, now extended to reinforcement-learning
-    policies that switch optimizers multiple times.</li>
+    features alone and reassesses that choice during the run. Now extending L2CO to
+    reinforcement-learning policies that switch optimizers multiple times within a single run.</li>
     </ul>
   collapsed_text: >-
     Optimization plays a central role in data-driven design. However, choosing an appropriate
@@ -92,8 +93,8 @@
     Taught probabilistic machine learning to 30 graduate students in Brown's <i>Data-Driven Design
     &amp; Analysis of Structures and Materials</i> course
     (<a href="https://github.com/bessagroup/3dasm_course">3dasm</a>), giving two guest lectures and
-    supervising final projects, by creating homework assignments, project exercises and lecture
-    notebooks.
+    supervising final projects. Contributed homework assignments, project exercises and lecture
+    notebooks to the open-source course material.
   collapsed_text:
 
 # VP of Global Communications
@@ -167,8 +168,8 @@
   summary: >-
     Assessed the weekly coding assignments of 80 master's students in
     <a href="https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=46948">'Computational
-    Materials Science I'</a> on time, by reviewing their MATLAB and Python code with written feedback
-    and publishing worked solutions as Jupyter notebooks.
+    Materials Science I'</a>. Reviewed their MATLAB and Python code with written feedback and
+    published worked solutions as Jupyter notebooks.
 
 # VP of Global Communications
 - company: <a href="http://www.deklittenband.nl">V.O.F. De Klittenband</a>
@@ -183,10 +184,10 @@
     with clients and aligning the technical crew on sound, lighting and stage requirements.</li>
     <li><b>Logistics:</b> Organize every performance end-to-end by planning transport, equipment, crew
     and band availability for each show.</li>
-    <li><b>Finance &amp; administration:</b> Automated the band's quotations, contracts and invoicing
-    by building custom Python software that generates all client documents from a single gig record
-    and prices each show from musician, equipment and travel costs, and synced bookings from the CRM
-    into a shared band calendar.</li>
+    <li><b>Finance &amp; administration:</b> Automated the band's administration by building custom
+    Python software that generates the quotation, contract and invoice for each gig and calculates its
+    price from musician fees, equipment rental and travel costs. Also synced bookings from the CRM into
+    a shared band calendar.</li>
     </ul>
   collapsed_text: >-
     <figure>
@@ -207,7 +208,7 @@
   position: IT-support
   duration: Nov, 2016 &mdash; July, 2018
   collapse: False
-  summary: Provided first-line IT support to employees at Priva and Ampelmann during the BSc, and improved internal IT procedures by working with Active Directory, TOPdesk, Windows 10 and Office 365.<ul class="resume-item-list"><li><a href="https://ampelmann.nl">Ampelmann B.V.</a> (May, 2018 &mdash; July, 2018)</li><li><a href="https://www.priva.com">Priva B.V.</a> (Nov, 2016 &mdash; Apr, 2017)</li></ul>
+  summary: Provided first-line IT support to employees at Priva and Ampelmann, and improved internal IT procedures by working with Active Directory, TOPdesk, Windows 10 and Office 365.<ul class="resume-item-list"><li><a href="https://ampelmann.nl">Ampelmann B.V.</a> (May, 2018 &mdash; July, 2018)</li><li><a href="https://www.priva.com">Priva B.V.</a> (Nov, 2016 &mdash; Apr, 2017)</li></ul>
 # Director of Digital Stratgy
 #- company: Ampelmann B.V.
 #  position: Jr. IT-support
