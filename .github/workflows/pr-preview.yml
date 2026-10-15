@@ -1,0 +1,41 @@
+# Builds every PR into gh-pages with the same Jekyll image GitHub Pages uses and publishes
+# the result at https://mpvanderschelling.github.io/pr-preview/pr-<number>/ . The action
+# comments the link on the PR and removes the preview when the PR is closed or merged.
+name: PR preview
+
+on:
+  pull_request:
+    branches: [gh-pages]
+    types: [opened, reopened, synchronize, closed]
+
+concurrency: preview-${{ github.ref }}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # gh-pages is both the Jekyll source and the preview host, so a PR branch carries
+      # copies of the other previews; drop them so they aren't nested into this build.
+      - name: Remove other previews from the source
+        if: github.event.action != 'closed'
+        run: rm -rf pr-preview
+
+      - name: Build with the GitHub Pages Jekyll image
+        if: github.event.action != 'closed'
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Deploy or remove the preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./_site
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
