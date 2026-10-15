@@ -144,3 +144,19 @@ and logs two harmless warnings every run — a long "The following gems are miss
 "the github-pages gem can't satisfy your Gemfile's dependencies". Those are noise, not build
 failures; look past them to the actual error. Either way it's Jekyll 3, so Jekyll 4-only Liquid
 is unavailable. An `update-deps` branch exists on the remote if the lockfile is ever refreshed.
+
+### PR previews
+
+`.github/workflows/pr-preview.yml` builds every PR into `gh-pages` with `actions/jekyll-build-pages`
+and `rossjrw/pr-preview-action` publishes it at `https://mpvanderschelling.github.io/pr-preview/pr-<N>/`
+(link posted as a PR comment, removed on close/merge). This is the way to see a change rendered, since
+nothing here can run Jekyll.
+
+- The action **commits into `gh-pages`** under `pr-preview/`: expect bot commits on the publish branch,
+  and `git pull` before branching. Don't delete or `exclude` `pr-preview/` — production serves it.
+- Because of that, PR branches carry copies of other previews; the workflow `rm -rf pr-preview` before
+  building so they don't nest.
+- Previews work in a subdirectory only because assets are referenced **relatively**
+  (`css/main.css`, `images/...`). Keep new asset paths relative; a leading `/` points a preview at production.
+- `gh` in this clone resolves to the `upstream` template repo; pass
+  `--repo mpvanderschelling/mpvanderschelling.github.io` to `gh pr` commands.
