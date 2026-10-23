@@ -5,7 +5,7 @@
   position: PhD Candidate
   duration: Feb, 2022 &mdash; Present
   collapse: True
-  collapse_name: Learning to Choose Optimizers
+  collapse_name: f3dasm &mdash; a Framework for Data-Driven Design and Analysis of Structures and Materials
   summary: >-
     PhD candidate in the Bessa Group on machine-learning-guided optimization for materials design.
     <ul class="resume-item-list">
@@ -15,6 +15,10 @@
     <a href="https://doi.org/10.21105/joss.06912">JOSS publication</a>, by designing a modular API that links
     design of experiments, simulation, machine learning and optimization, with MPI-parallel data
     generation on HPC clusters.</li>
+    <li><b>Python Code of Conduct:</b> Co-author and maintainer of the Bessa Group Python Development
+    Code of Conduct, the standard all of the group's Python developers follow to keep research code
+    consistent, maintainable and FAIR, by writing its coding-style and packaging guidelines and an
+    AI-agent review workflow that checks repositories against it automatically.</li>
     <li><b>Learning to Choose Optimizers:</b> Developing L2CO, a meta-learned optimizer-selection
     framework that matches or outperforms the single best optimizer on standard black-box benchmarks
     and was accepted at IEEE CEC 2026, by training a model that picks an optimizer from problem
@@ -22,66 +26,84 @@
     reinforcement-learning policies that switch optimizers multiple times within a single run.</li>
     </ul>
   collapsed_text: >-
-    Optimization plays a central role in data-driven design. However, choosing an appropriate
-    optimization algorithm for a specific task is often challenging, as it depends on the structure of
-    the optimization problem and practical limitations such as the computational budget. To tackle this
-    challenge, the field has seen a shift from manually designing optimizers toward using machine
-    learning methods that attempt to learn the optimization process itself. Despite significant
-    progress, existing approaches frequently exhibit limited generalization to new distributions and
-    typically require retraining to transfer their knowledge.<br><br>
-    We introduce a new approach called "Learning to Choose Optimizers" (L2CO). In our approach, a
-    meta-learner first selects an optimizer before any function evaluations&mdash;based solely on
-    available problem characteristics&mdash;and then reassesses that choice using a unified model that
-    jointly encodes problem context, optimizer identity, and the observed optimization trajectory. By
-    restricting selection to well-established algorithms, L2CO avoids the convergence issues of learned
-    update rules while retaining the adaptability of dynamic selection.<br><br>
-    In this work, we train our model offline on a collection of benchmark functions, employing a mixture
-    of gradient-based, population-based, and probabilistic model-based optimizers. We demonstrate the
-    effectiveness of our method by comparing its performance to classical optimizers on standard
-    benchmark problems and a neural net classification task. The empirical results indicate that L2CO is
-    a promising tool with improved generalization capabilities.
+    Recent advances in computational resources have accelerated the development of <b>inverse design</b>
+    approaches for structures and materials. In particular, <b>data-driven strategies</b> that leverage
+    machine learning are increasingly shaping modern design workflows. However, constructing and
+    maintaining large material-response databases remains challenging in practice. Typical challenges
+    include data management, efficient parallel computing, and the integration of third-party
+    simulation or analysis software. Because many applied fields remain conservative in openly
+    sharing data and software, researchers often spend substantial time <b>re-implementing standard
+    procedures</b>, hindering reproducibility, benchmarking, and adherence to <b>FAIR principles</b>.<br><br>
+    In this work, we introduce <a href="https://github.com/bessagroup/f3dasm"><b>f3dasm</b></a>
+    (framework for data-driven design &amp; analysis of structures and materials), a general and
+    user-friendly open-source package that supports the <b>full data-driven design pipeline</b>. The
+    framework aims to streamline research workflows, facilitate the replication of existing studies,
+    and encourage the sharing of new experiments and results. <b>f3dasm</b> emphasizes <b>flexibility,
+    interoperability, and modularity</b>. In particular, it enables researchers to integrate different
+    software packages and computational tools across the key stages of a data-driven design loop:
+    (1) design of experiments; (2) data generation; (3) machine learning and surrogate modeling;
+    and (4) optimization.<br><br>
+    Since its first public release, <b>f3dasm</b> has been expanded to support <b>MPI-based
+    parallelization</b> in high-performance clusters, enabling efficient large-scale data generation and
+    simulation workloads. Furthermore, <b>f3dasm</b> adopts array-centric data structures that avoid
+    breaking the computational graph when interfacing with <b>automatic differentiation libraries</b>,
+    facilitating gradient-based learning and optimization. By lowering technical barriers and
+    promoting reproducibility, <b>f3dasm</b> contributes to <b>democratizing data-driven design</b> for
+    researchers and practitioners in structural and material engineering.
     <figure>
-     <img src="images/l2co-overview.png" alt="Overview of the L2CO framework" class="centeringfull" itemprop="image">
-     <figcaption class="figcaption">Overview of the L2CO framework. A first decision selects an initial optimizer from the problem features alone; a second, trajectory-aware decision then fuses problem embeddings, optimizer embeddings and the observed trajectory to either confirm that choice or warm-start a switch to a more suitable optimizer.</figcaption>
+     <img src="images/f3dasm-data-driven-process.png" alt="The data-driven design process supported by f3dasm" class="centeringfull" itemprop="image">
+     <figcaption class="figcaption">The four stages of the data-driven design process covered by f3dasm: design of experiments, data generation, machine learning, and optimization.</figcaption>
     </figure>
     <br>
-    van der Schelling, M., Toshniwal, D., &amp; Bessa, M. A. <i>Learning to Choose Optimizers</i>.
-    IEEE Congress on Evolutionary Computation (CEC), 2026.
+    van der Schelling et al., (2024). <i>f3dasm: Framework for Data-Driven Design and Analysis of
+    Structures and Materials</i>. Journal of Open Source Software, 9(100), 6912,
+    <a href="https://doi.org/10.21105/joss.06912">https://doi.org/10.21105/joss.06912</a>
   collapses:
-    - collapse_name: f3dasm &mdash; a Framework for Data-Driven Design and Analysis of Structures and Materials
+    - collapse_name: Bessa Group Python Development Code of Conduct
       collapsed_text: >-
-        Recent advances in computational resources have accelerated the development of inverse design
-        approaches for structures and materials. In particular, data-driven strategies that leverage
-        machine learning are increasingly shaping modern design workflows. However, constructing and
-        maintaining large material-response databases remains challenging in practice. Typical challenges
-        include data management, efficient parallel computing, and the integration of third-party
-        simulation or analysis software. Because many applied fields remain conservative in openly
-        sharing data and software, researchers often spend substantial time re-implementing standard
-        procedures, hindering reproducibility, benchmarking, and adherence to FAIR principles.<br><br>
-        In this work, we introduce <a href="https://github.com/bessagroup/f3dasm"><b>f3dasm</b></a>
-        (framework for data-driven design &amp; analysis of structures and materials), a general and
-        user-friendly open-source package that supports the full data-driven design pipeline. The
-        framework aims to streamline research workflows, facilitate the replication of existing studies,
-        and encourage the sharing of new experiments and results. <b>f3dasm</b> emphasizes flexibility,
-        interoperability, and modularity. In particular, it enables researchers to integrate different
-        software packages and computational tools across the key stages of a data-driven design loop:
-        (1) design of experiments; (2) data generation; (3) machine learning and surrogate modeling;
-        and (4) optimization.<br><br>
-        Since its first public release, <b>f3dasm</b> has been expanded to support MPI-based
-        parallelization in high-performance clusters, enabling efficient large-scale data generation and
-        simulation workloads. Furthermore, <b>f3dasm</b> adopts array-centric data structures that avoid
-        breaking the computational graph when interfacing with automatic differentiation libraries,
-        facilitating gradient-based learning and optimization. By lowering technical barriers and
-        promoting reproducibility, <b>f3dasm</b> contributes to democratizing data-driven design for
-        researchers and practitioners in structural and material engineering.
+        Research software written during a PhD often outlives the PhD itself, yet in practice it is
+        frequently left without <b>tests, documentation or a consistent structure</b>, which makes it hard for
+        the next researcher to pick up, reproduce or build on. The Bessa Group Python Development Code of
+        Conduct addresses this by setting <b>one standard</b> that every Python developer in the group follows,
+        so that code can be handed over, shared between projects and published as <b>open-source science</b>
+        following the <b>FAIR principles</b> (Findable, Accessible, Interoperable and Reusable).<br><br>
+        The Code of Conduct separates <b>what</b> is required from <b>how</b> to achieve it. The
+        guidelines are <b>mandatory</b> and cover project creation, a coding style, how to structure, document
+        and publish a Python package, and a <b>release every six months</b> that is <b>peer-reviewed</b> by the group
+        during a Code Release Week. The accompanying tool guides (Ruff, pre-commit, MkDocs and
+        documentation hosting) are suggestions of how to comply, and a <b>checklist</b> summarises every
+        requirement together with how it is verified.<br><br>
+        To make that review cheaper and more consistent, I added an <b>automated review workflow</b>: a
+        self-contained prompt that has an <b>AI coding agent</b> (Claude Code) install, lint, test, document and
+        build a repository inside a <b>sandboxed Docker container</b>, and report its compliance with the
+        checklist without modifying any code.
+    - collapse_name: Learning to Choose Optimizers
+      collapsed_text: >-
+        Optimization plays a central role in data-driven design. However, <b>choosing an appropriate
+        optimization algorithm</b> for a specific task is often challenging, as it depends on the structure of
+        the optimization problem and practical limitations such as the computational budget. To tackle this
+        challenge, the field has seen a shift from manually designing optimizers toward using machine
+        learning methods that attempt to learn the optimization process itself. Despite significant
+        progress, existing approaches frequently exhibit <b>limited generalization</b> to new distributions and
+        typically <b>require retraining</b> to transfer their knowledge.<br><br>
+        We introduce a new approach called <b>"Learning to Choose Optimizers" (L2CO)</b>. In our approach, a
+        meta-learner first selects an optimizer <b>before any function evaluations</b>&mdash;based solely on
+        available problem characteristics&mdash;and then <b>reassesses that choice</b> using a unified model that
+        jointly encodes problem context, optimizer identity, and the observed optimization trajectory. By
+        restricting selection to <b>well-established algorithms</b>, L2CO avoids the <b>convergence issues</b> of learned
+        update rules while retaining the adaptability of dynamic selection.<br><br>
+        In this work, we train our model offline on a collection of benchmark functions, employing a mixture
+        of gradient-based, population-based, and probabilistic model-based optimizers. We demonstrate the
+        effectiveness of our method by comparing its performance to classical optimizers on standard
+        benchmark problems and a neural net classification task. The empirical results indicate that L2CO is
+        a promising tool with <b>improved generalization capabilities</b>.
         <figure>
-         <img src="images/f3dasm-data-driven-process.png" alt="The data-driven design process supported by f3dasm" class="centeringfull" itemprop="image">
-         <figcaption class="figcaption">The four stages of the data-driven design process covered by f3dasm: design of experiments, data generation, machine learning, and optimization.</figcaption>
+         <img src="images/l2co-overview.png" alt="Overview of the L2CO framework" class="centeringfull" itemprop="image">
+         <figcaption class="figcaption">Overview of the L2CO framework. A first decision selects an initial optimizer from the problem features alone; a second, trajectory-aware decision then fuses problem embeddings, optimizer embeddings and the observed trajectory to either confirm that choice or warm-start a switch to a more suitable optimizer.</figcaption>
         </figure>
         <br>
-        van der Schelling et al., (2024). <i>f3dasm: Framework for Data-Driven Design and Analysis of
-        Structures and Materials</i>. Journal of Open Source Software, 9(100), 6912,
-        <a href="https://doi.org/10.21105/joss.06912">https://doi.org/10.21105/joss.06912</a>
+        van der Schelling, M., Toshniwal, D., &amp; Bessa, M. A. <i>Learning to Choose Optimizers</i>.
+        IEEE Congress on Evolutionary Computation (CEC), 2026.
 
 # VP of Global Communications
 - company: <a href="https://engineering.brown.edu/">Brown University</a>
@@ -135,7 +157,7 @@
   # </figure>
   # <br>
   # The Bayesian optimization model for bio-based composite research was developed in collaboration with NPSP B.V. The model is open-source and can be found <a href="https://github.com/mpvanderschelling/BMC-optimizer">here</a>.<br><br>
-  collapsed_text: NPSP B.V. is a research and development company within the field of bio-based composites. New circular materials are being produced by using materials from waste streams.<br><br> Besides the Bayesian-optimization tool, I delved deeper into meta-heuristics and meta-learning. Based on the loss-landscape of general optimization problems, I have developed a unique reinforcement-learning system in which the most competent algorithm is chosen for each problem.
+  collapsed_text: NPSP B.V. is a research and development company within the field of bio-based composites. New circular materials are being produced by using materials from waste streams.<br><br> Besides the Bayesian-optimization tool, I delved deeper into meta-heuristics and meta-learning. Based on the loss-landscape of general optimization problems, I have developed a supervised classifier that chooses the most competent algorithm for each problem.
 
 # - company: Imperial College London
 #   position: Guest researcher
