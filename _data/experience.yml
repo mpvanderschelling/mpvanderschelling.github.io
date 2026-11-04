@@ -21,7 +21,7 @@
     AI-agent review workflow that checks repositories against it automatically.</li>
     <li><b>Learning to Choose Optimizers:</b> Developing L2CO, a meta-learned optimizer-selection
     framework that matches or outperforms the single best optimizer on standard black-box benchmarks
-    and was accepted at IEEE CEC 2026, by training a model that picks an optimizer from problem
+    and was published at <a href="https://ieeexplore.ieee.org/document/11727310">IEEE CEC 2026</a>, by training a model that picks an optimizer from problem
     features alone and reassesses that choice during the run. Now extending L2CO to
     reinforcement-learning policies that switch optimizers multiple times within a single run.</li>
     </ul>
@@ -102,7 +102,7 @@
          <figcaption class="figcaption">Overview of the L2CO framework. A first decision selects an initial optimizer from the problem features alone; a second, trajectory-aware decision then fuses problem embeddings, optimizer embeddings and the observed trajectory to either confirm that choice or warm-start a switch to a more suitable optimizer.</figcaption>
         </figure>
         <br>
-        van der Schelling, M., Toshniwal, D., &amp; Bessa, M. A. <i>Learning to Choose Optimizers</i>.
+        van der Schelling, M., Toshniwal, D., &amp; Bessa, M. A. <a href="https://ieeexplore.ieee.org/document/11727310"><i>Learning to Choose Optimizers</i></a>.
         IEEE Congress on Evolutionary Computation (CEC), 2026.
 
 # VP of Global Communications
